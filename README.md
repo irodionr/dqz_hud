@@ -1,4 +1,6 @@
 # dqz_hud
+Download: https://github.com/irodionr/dqz_hud/archive/master.zip
+
 Installation:  
 Put "dqz_hud" folder into "...\Steam\steamapps\common\Team Fortress 2\tf\custom\".  
 Works with cl_hud_minmode 0 and 1.  
