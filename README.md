@@ -1,4 +1,6 @@
 # dqz_hud
+![Screenshot](https://i.imgur.com/IWJrvcV.jpg)
+
 Download: https://github.com/irodionr/dqz_hud/archive/master.zip
 
 Installation:  
