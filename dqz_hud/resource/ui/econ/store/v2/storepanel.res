@@ -81,8 +81,9 @@
 		"tabxindent"	"10"
 		"tabxdelta"		"3"
 		"tabxfittotext"	"1"
-		"tabheight"		"34"
+		"tabheight"		"20"
 		"transition_time" "0"
+        "yoffset"    "14"
 		
 		"HeaderLine"
 		{
@@ -136,7 +137,21 @@
 		"Command"		"close"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}		
+	}
+	"CloseButtonShortcut"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"CloseButtonShortcut"
+		"xpos"			"r-210"
+		"ypos"			"437"
+		"zpos"			"2"
+		"wide"			"100"
+		"tall"			"25"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"&E"
+		"Command"		"close"
+	}	
 	
 	"armory_panel"
 	{

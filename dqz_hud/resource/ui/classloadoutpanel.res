@@ -183,18 +183,18 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
 		
-		"xpos"			"c-135"
-		"ypos"			"55"
+		"xpos"			"c-305"
+		"ypos"			"45"
 		"zpos"			"-1"		
-		"wide"			"270"
-		"tall"			"305"
+		"wide"			"610"
+		"tall"			"325"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 
 		"render_texture"	"0"
-		"fov"			"32"
+		"fov"			"65"
 		"allow_manip"		"1"
 				
 		"model"
@@ -202,7 +202,7 @@
 			"force_pos"	"1"
 
 			"angles_x" "0"
-			"angles_y" "170"	//rotate
+			"angles_y" "160"	//rotate
 			"angles_z" "0"
 			"origin_x" "190"	//camera distance
 			"origin_y" "0"
@@ -213,58 +213,6 @@
 			"spotlight" "1"
 		
 			"modelname"		""
-			
-			"animation"
-			{
-				"name"		"PRIMARY"
-				"activity"	"ACT_MP_STAND_PRIMARY"
-				"default"	"1"
-			}
-			"animation"
-			{
-				"name"		"SECONDARY"
-				"activity"	"ACT_MP_STAND_SECONDARY"
-			}
-			"animation"
-			{
-				"name"		"MELEE"
-				"activity"	"ACT_MP_STAND_MELEE"
-			}
-			"animation"
-			{
-				"name"		"BUILDING"
-				"activity"	"ACT_MP_STAND_BUILDING"
-			}
-			"animation"
-			{
-				"name"		"PDA"
-				"activity"	"ACT_MP_STAND_PDA"
-			}
-			"animation"
-			{
-				"name"		"ITEM1"
-				"activity"	"ACT_MP_STAND_ITEM1"
-			}						
-			"animation"
-			{
-				"name"		"ITEM2"
-				"activity"	"ACT_MP_STAND_ITEM2"
-			}									
-			"animation"
-			{
-				"name"		"MELEE_ALLCLASS"
-				"activity"	"ACT_MP_STAND_MELEE_ALLCLASS"
-			}
-			"animation"
-			{
-				"name"		"PRIMARY2"
-				"activity"	"ACT_MP_STAND_PRIMARY"
-			}
-			"animation"
-			{
-				"name"		"SECONDARY2"
-				"activity"	"ACT_MP_STAND_SECONDARY2"
-			}
 		}
 	}
 	
@@ -506,7 +454,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CharacterLoadoutButton"
 		"labelText"		""
-		"xpos"			"c213"
+		"xpos"			"c245"
 		"ypos"			"c-230"
 		"zpos"			"2"
 		"wide"			"25"
@@ -544,7 +492,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"TauntLoadoutButton"
 		"labelText"		""
-		"xpos"			"c238"
+		"xpos"			"c272"
 		"ypos"			"c-230"
 		"zpos"			"2"
 		"wide"			"25"
@@ -685,5 +633,52 @@
 				"scaleImage"	"1"
 			}				
 		}		
+	}
+	
+	"RedSkinButton"
+	{
+		"ControlName"		"CExImageButton"
+		"fieldName"			"RedSkinButton"
+		"xpos"				"c180"
+		"ypos"				"c-230"
+		"zpos"				"30"
+		"wide"				"25"
+		"tall"				"25"
+		"visible"			"1"
+		"enabled"			"1"
+		"command"			"sv_cheats 1; r_skin 0"
+		"keyboardinputenabled"	"0"
+		
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"defaultfgcolor_override"		"0 0 0 0"
+		"armedFgColor_override"			"0 0 0 0"
+		"defaultbgcolor_override"		"255 62 62 255"
+		"depressedbgcolor_override"		"255 62 62 255"
+		"armedbgcolor_override"			"255 92 92 255"
+	}
+	"BlueSkinButton"
+	{
+		"ControlName"		"CExImageButton"
+		"fieldName"			"BlueSkinButton"
+		"xpos"				"c207"
+		"ypos"				"c-230"
+		"zpos"				"30"
+		"wide"				"25"
+		"tall"				"25"
+		"visible"			"1"
+		"enabled"			"1"
+		"command"			"sv_cheats 1; r_skin 1"
+		"keyboardinputenabled"	"0"
+		
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"defaultfgcolor_override"		"0 0 0 0"
+		"armedFgColor_override"			"0 0 0 0"
+		"defaultbgcolor_override"		"154 205 255 255"
+		"depressedbgcolor_override"		"154 205 255 255"
+		"armedbgcolor_override"			"184 235 255 255"
 	}
 }
