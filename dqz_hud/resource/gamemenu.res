@@ -1,84 +1,110 @@
-"GameMenu"
+//modified from valve, inspired by eve, frankenhud, more (which included the demoui), and pvhud (which included hud buttons)
+
+"GameMenu" [$WIN32]
 {
-	"ConsoleButton"
-	{
-		"label"			""
-		"command"		"engine toggleconsole"
-		"subimage"		""
-	}
+
+//	"FindAGameButtonHalfWidth"
+//	{
+//		"label" "#MMenu_FindAGame" 
+//		"command" "toggle_play_menu"
+//		"subimage" "glyph_multiplayer"
+//		"OnlyInGame"	"1"
+//	}
 	"ServerBrowserButton"
 	{
-		"label" "#MMenu_PlayList_ServerBrowser_Button"	//"#MMenu_BrowseServers" 
+		"label" "#MMenu_BrowseServers" 
 		"command" "OpenServerBrowser"
 		"subimage" "glyph_server_browser"
-		//"OnlyAtMenu" "1"
-	} 
-	"ReplayBrowserButton"
-	{
-		"label" "#GameUI_GameMenu_ReplayDemos"
-		"command" "engine replay_reloadbrowser"
-		"subimage" "glyph_tv"
+		//"subimage" "glyph_server"
+		//"subimage" "glyph_server_browser"
+		//"subimage" "glyph_workshop_view" //bigger magnifying glass lense
+		"OnlyAtMenu" "0"
 	}
-	//"AchievementBrowserButton"
-	//{
-	//	"label" "#Achievements"
-	//	"command" "OpenAchievementsDialog"
-	//	"subimage" "glyph_achievements"
-	//	//"tooltip" "#GameUI_GameMenu_CreateServer"
-	//}
-	"SteamWorkshopButton"
+
+	"CreateServerMiniButton"
 	{
-		"label" "#MMenu_SteamWorkshop"
-		"command" "engine OpenSteamWorkshopDialog"
-		"subimage" "glyph_steamworkshop"
-		"tooltip" "#MMenu_SteamWorkshop"
+		"label" "#GameUI_GameMenu_CreateServer" 
+		"command" "OpenCreateMultiplayerGameDialog"
+		"subimage" "glyph_create"
+		"tooltip" "#GameUI_GameMenu_CreateServer"
+		//"subimage" "glyph_server"
+		//"subimage" "glyph_server_browser"
+		//"subimage" "glyph_workshop_view" //bigger magnifying glass lense
+		"OnlyAtMenu" "0"
 	}
-	"VRModeButton"
+	"ConsoleMiniButton"
+    {
+        "command" "engine toggleconsole"
+        "label"	  ">_"                 
+		"tooltip" "Toggle Console"
+    }
+	"CharacterSetupButton"
 	{
-		"label" "#MMenu_VRMode_Activate"
-		"command" "engine vr_toggle"
-		"subimage" "glyph_vr"
-		"OnlyWhenVREnabled" "1"
-	}
-	
-	"AdvSettingsButton"
-	{
-		"label"		"#MMenu_AdvOptions"
-		"command"	"opentf2options"
-		"subimage"	"glyph_options"
-		"tooltip"	"#MMenu_OptionsHighlightPanel_Title"
-	}
-	
-	// These buttons get positioned by the MainMenuOverride.res	
-	"GeneralStoreButton2"
-	{
-		"label" "#MMenu_Shop"
-		"command" "engine open_store"
-		"subimage" "glyph_store"
-		"tooltip" "#MMenu_StoreHighlightPanel_Title"
-	}	
-	"CharacterSetupButton2"
-	{
-		"label" "#MMenu_CharacterSetup"
+		"label" "Manage Items"//"#MMenu_CharacterSetup"
 		"command" "engine open_charinfo"
 		"subimage" "glyph_items"
 	}
+	"StoreMiniButton"
+	{
+		"command" "engine open_store"
+		"OnlyAtMenu" "0"
+		"tooltip" "#MMenu_Shop"
+	}
+	"AchievementButton"
+	{
+		"label" "View Achievements"
+		"command" "OpenAchievementsDialog"
+		"subimage"	"icon_checkbox"
+	}
+	
+	
+	
+	
+	
+	
+	//faked this label as a button so that it can have special settings applied to it
+	"FakeRecordingLabelButton"
+    {
+        "label" "Recordings"
+		//breaks without a command so it just echoes a blank string to console
+        "command"   "engine echo "
+		//only shown at main menu so that it can be replaced by scoreboard buttons ingame
+		"OnlyAtMenu"    "0"
+    }
+	"ReplayBrowserButton"
+	{
+		"label" "Edit Replays"//"#GameUI_GameMenu_ReplayDemos"
+		"command" "engine replay_reloadbrowser"
+		"subimage" "glyph_tv"
+		//"subimage" "../hud/ico_camera"
+		//only shown at main menu so that it can be replaced by scoreboard buttons in game
+		"OnlyAtMenu"    "0"
+	}
+	"DemoMiniButton"
+	{
+		"command" "engine demoui"
+		"tooltip" "Play Demos"
+		//only shown at main menu so that it can be replaced by scoreboard buttons in game
+		"OnlyAtMenu"    "0"
+	}
+
 
 	// These buttons are only shown while in-game
-	// and also are positioned by the .res file
-	"QuitButtonHidden"
+	// and also are positioned by MainMenuOverride.res
+
+	"CallVoteButton"
 	{
-		"label"			"#TF_Quit_Title"
-		"command"		"quit"
-		"subimage"		"glyph_close_X"
+		"command"		"callvote"
 		"OnlyInGame"	"1"
+		"subimage"	"glyph_forums"
+		"tooltip" "#MMenu_CallVote"
 	}
-	"ResumeGameButtonBG"
+	"MutePlayersButton"
 	{
-		"label"			""
-		"command"		"ResumeGame"
-		"subimage"		""
+		"command"		"OpenPlayerListDialog"
 		"OnlyInGame"	"1"
+		"subimage"		"icon_coach" //headphones
+		"tooltip" "#MMenu_MutePlayers"
 	}
 	"ReportPlayerButton"
 	{
@@ -88,92 +114,57 @@
 		"subimage"		"glyph_alert"
 		"tooltip"		"#MMenu_ReportPlayer"
 	}
-	"CallVoteButton"
+	"ResumeButton"
 	{
-		"label"			""
-		"command"		"callvote"
-		"subimage" "icon_checkbox"
-		"tooltip" "#MMenu_CallVote"
+		"command"		"ResumeGame"
 		"OnlyInGame"	"1"
+		"subimage" "icon_resume"
+		"tooltip" 	"#MMenu_ResumeGame"
+		
 	}
-	"MutePlayersButton"
+	"SoundToggleButton"
 	{
-		"label"			""
-		"command"		"OpenPlayerListDialog"
-		"subimage" "glyph_muted"
-		"tooltip" "#MMenu_MutePlayers"
+		"command"		"engine toggle snd_mute_losefocus"
 		"OnlyInGame"	"1"
-	}
-	"RequestCoachButton"
-	{
-		"label"			""
-		"command"		"engine cl_coach_find_coach"
-		"subimage" "icon_whistle"
-		"tooltip" "#MMenu_RequestCoach"
-		"OnlyInGame"	"1"
-	}	
-	"ShowPromoCodesButton"
-	{
-		"label"			""
-		"command"		"showpromocodes"
-		"subimage" "glyph_items"
-		"tooltip" "#MMenu_ShowPromoCodes"
-		//"OnlyAtMenu" "1"
+		"subimage" "replay/replay_default"
+		"tooltip" 	"Background Sound Toggle"
+		
 	}
 	
-	"ServerShortcutInfo"
+	"SteamWorkshopStripButton"
 	{
-		"command" "engine showconsole;echo;echo;echo;echo;echo;echo;echo;echo View the ReadMe.txt if you need help setting up your quick join shortcuts."
-		"tooltip" "Quick join shortcuts >>"
-		"OnlyAtMenu"	"1"
-		"OnlyInGame"	"1"
+		"command"		"engine OpenSteamWorkshopDialog"
+		"OnlyInGame"	"0"
+		"subimage" "glyph_steamworkshop"
+		"tooltip" 	"#MMenu_SteamWorkshop"
+		
 	}
-	"ServerShortcut1"
+	
+		"AdvancedOptionsStripButton"
 	{
-		"label" "#1"
-		"command" "engine ServerShortcut1"
-		"tooltip" "Join Server #1"
-		"OnlyAtMenu"	"1"
-		"OnlyInGame"	"1"
+		"command"		"opentf2options"
+		"OnlyInGame"	"0"
+		"subimage" 		"glyph_options"
+		"tooltip"		"Advanced Options"//"#MMenu_AdvOptions"
+		
 	}
-	"ServerShortcut2"
+		"MinmodeOffStrip"
 	{
-		"label" "#2"
-		"command" "engine ServerShortcut2"
-		"tooltip" "Join Server #2"
-		"OnlyAtMenu"	"1"
-		"OnlyInGame"	"1"
+		"command"		"engine cl_hud_minmode 0"
+		"OnlyInGame"	"0"
+		//"subimage"	"icon_checkbox_empty"
+		//"subimage"	"scroll_button_off"
+		"subimage"	"scroll_down_on"
+		"tooltip" 	"HUD Minmode Off"
 	}
-	"ServerShortcut3"
+		"MinmodeOnStrip"
 	{
-		"label" "#3"
-		"command" "engine ServerShortcut3"
-		"tooltip" "Join Server #3"
-		"OnlyAtMenu"	"1"
-		"OnlyInGame"	"1"
+		"command"		"engine cl_hud_minmode 1"
+		"OnlyInGame"	"0"
+		//"subimage"	"icon_checkbox"
+		//"subimage"	"scroll_button_on"
+		"subimage"	"scroll_up_on"
+		"tooltip" 	"HUD Minmode On"
 	}
-	"ServerShortcut4"
-	{
-		"label" "#4"
-		"command" "engine ServerShortcut4"
-		"tooltip" "Join Server #4"
-		"OnlyAtMenu"	"1"
-		"OnlyInGame"	"1"
-	}
-	"ServerShortcut5"
-	{
-		"label" "#5"
-		"command" "engine ServerShortcut5"
-		"tooltip" "Join Server #5"
-		"OnlyAtMenu"	"1"
-		"OnlyInGame"	"1"
-	}
-	"ServerShortcut6"
-	{
-		"label" "#6"
-		"command" "engine ServerShortcut6"
-		"tooltip" "Join Server #6"
-		"OnlyAtMenu"	"1"
-		"OnlyInGame"	"1"
-	}
+	
 }
