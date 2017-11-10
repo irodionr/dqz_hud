@@ -39,7 +39,7 @@
 			"xpos"		"0"
 			"ypos"		"0"
 			"wide"		"p0.5"
-			"tall"		"0"
+			"tall"		"f6"
 			"zpos"	"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -47,7 +47,7 @@
 			"proportionaltoparent"	"1"
 			"scaleimage"	"1"
 			"mouseinputenabled"	"0"
-			"alpha"		"100"
+			"alpha"		"0"
 
 			"image"		"gradient_pure_black"
 		}
@@ -65,7 +65,7 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"tabPosition"			"0"	
-			"fillcolor"				"30 30 30 200"
+			"fillcolor"				"30 30 30 250"
 			"PaintBackgroundType"	"0"
 		}	
 		"BGPanel"
@@ -76,11 +76,12 @@
 			"ypos"			"0"
 			"zpos"			"-1"
 			"wide"			"p1.1"
-			"tall"			"0"
+			"tall"			"f5"
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
 			"border"		"ReplayDefaultBorder"
 			"proportionaltoparent"	"1"
+			"alpha"		"0"
 		}
 
 		"OuterShadow"
@@ -91,11 +92,12 @@
 			"ypos"			"cs-0.5"
 			"zpos"			"-2"
 			"wide"			"p1.1"
-			"tall"			"0"
+			"tall"			"p1"
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
 			"border"		"OuterShadowBorder"
 			"proportionaltoparent"	"1"
+			"alpha"		"0"
 		}
 
 		"ToggleChatButton"
@@ -525,9 +527,9 @@
 			"ControlName"	"CExImageButton"
 			"fieldName"		"QuitButton"
 			"xpos"			"rs1"
-			"ypos"			"1000"	//"0"
+			"ypos"			"0"
 			"zpos"			"100"
-			"wide"			"0"	//"30"
+			"wide"			"30"
 			"tall"			"f6"
 			"autoResize"	"0"
 			"pinCorner"		"3"
@@ -550,8 +552,8 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"armedBgColor_override"		"192 28 0 150"
-			"defaultBgColor_override"	"192 28 0 50"
+			"armedBgColor_override"		"192 28 0 255"
+			"defaultBgColor_override"	"142 28 0 255"
 
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "TanLight"
@@ -582,9 +584,9 @@
 			"ControlName"	"CExImageButton"
 			"fieldName"		"DisconnectButton"
 			"xpos"			"rs1"
-			"ypos"			"1000"	//"0"
+			"ypos"			"0"
 			"zpos"			"100"
-			"wide"			"0"		//"110"
+			"wide"			"110"
 			"tall"			"f6"
 			"autoResize"	"0"
 			"pinCorner"		"3"
@@ -609,8 +611,8 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"armedBgColor_override"		"192 28 0 150"
-			"defaultBgColor_override"	"192 28 0 50"
+			"armedBgColor_override"		"192 28 0 255"
+			"defaultBgColor_override"	"142 28 0 255"
 
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "TanLight"
@@ -698,10 +700,10 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"FindAGameButton"
-			"xpos"			"rs1-131"
+			"xpos"			"rs1-31"
 			"ypos"			"0"
 			"zpos"			"100"
-			"wide"			"145"
+			"wide"			"115"
 			"tall"			"f6"
 			"autoResize"	"0"
 			"pinCorner"		"3"
@@ -720,7 +722,7 @@
 			"actionsignallevel"	"2"
 			"roundedcorners"	"1"
 			"textinsety"	"5"
-			"textinsetx"	"40"
+			"textinsetx"	"25"
 			"use_proportional_insets"	"1"
 
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -738,7 +740,7 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"21"
+				"xpos"			"6"
 				"ypos"			"10"
 				"zpos"			"1"
 				"wide"			"14"
