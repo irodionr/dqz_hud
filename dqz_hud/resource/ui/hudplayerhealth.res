@@ -12,7 +12,7 @@
 		"visible"			"1"
 		"enabled"			"1"	
 		"HealthBonusPosAdj"			"35"
-		"HealthDeathWarning"		"0.49"
+		"HealthDeathWarning"		"0.49" // 0.49 - default, 0.75 - flash at 112 for medic
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 	}
 	"HealthIcon"

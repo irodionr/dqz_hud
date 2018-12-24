@@ -224,7 +224,7 @@
 
 		if_match
 		{
-			"visible"		"1"
+			"visible"		"0"
 		}
 	}
 
@@ -347,7 +347,7 @@
 		"ControlName"	"CTFTeamStatus"
 		"fieldName"		"TeamStatus"
 		"xpos"			"0"
-		"ypos"			"42"
+		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"75"
@@ -361,11 +361,11 @@
 		"12v12_gap"	"1"
 
 		"team1_grow_dir" "west"
-		"team1_base_x"	"c-10"
+		"team1_base_x"	"c-30"
 		"team1_max_expand"	"133"
 
 		"team2_grow_dir" "east"
-		"team2_base_x"	"c11"
+		"team2_base_x"	"c30"
 		"team2_max_expand"	"133"
 
 		"playerpanels_kv"
