@@ -1336,7 +1336,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"1"
-		"ypos"					"-2"
+		"ypos"					"20"
 		"wide"					"f0"
 		"tall"					"33"
 	}	
