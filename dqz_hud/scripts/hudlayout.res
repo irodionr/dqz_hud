@@ -181,6 +181,7 @@
 		"ypos"					"r140"
 		"wide"					"180"
 		"tall"					"70"
+		"tall_minmode"			"71"
 	}
 	
 	HudObjectiveStatus
@@ -632,7 +633,7 @@
 		"IconColor"				"HudWhite"
 		"LocalPlayerColor"		"HUDBlack"
 
-		"BaseBackgroundColor"	"50 50 50 255"		//"40 40 40 200"		//"0 0 0 200"
+		"BaseBackgroundColor"	"40 40 40 100"		//"50 50 50 255"		//"0 0 0 200"
 		"LocalBackgroundColor"	"255 255 255 200"
 	}
 
