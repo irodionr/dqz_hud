@@ -1266,13 +1266,11 @@
 		"fieldName"				"HudStopWatch"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c0"
-		"ypos"					"-3"
+		"xpos"					"c-7"
+		"ypos"					"15"
 		"wide"					"145"
 		"tall"					"55"
 		"zpos"					"10"
-		
-		"ypos_minmode"			"-6"
 	}
 	
 	NotificationPanel
