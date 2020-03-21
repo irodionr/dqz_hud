@@ -8,7 +8,12 @@ Download: https://github.com/irodionr/dqz_hud/archive/2012.zip
 Installation:  
 Put `dqz_hud` folder into `...\Steam\steamapps\common\Team Fortress 2\tf\custom\`.  
 Use with `cl_hud_minmode 0` for all 2012 version features.  
-Custom crosshairs can be enabled in `...\scripts\hudlayout.res` by setting "visibility" to "1".
+Custom crosshairs can be enabled in `...\scripts\hudlayout.res` by setting `visible` to `1`.
+
+Hitmarker (flashing circle around the crosshair) is disabled by default, as it may cause FPS drops.  
+How to enable it:  
+1. In `...\dqz_hud\resource\ui\hudplayerclass.res` find `Crosshair9` and set `visible` to `1`.
+2. In `...\dqz_hud\scripts\hudanimations_evehud.txt` find `event HitMarker` and uncomment (remove `//`) lines with `Crosshair9` in it.
 
 Based on e.v.e HUD: http://tf2.gamebanana.com/guis/25711  
 Main menu from sweetHud: https://github.com/FireStarW/sweetHud  
