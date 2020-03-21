@@ -1,12 +1,14 @@
 # dqz_hud
-![Screenshot](https://i.imgur.com/IWJrvcV.jpg)
+![Screenshot](https://i.imgur.com/7fHRgTb.jpg)
+
+2012 version is available in it's own branch: https://github.com/irodionr/dqz_hud/tree/2012
 
 Download: https://github.com/irodionr/dqz_hud/archive/master.zip
 
 Installation:  
-Put "dqz_hud" folder into "...\Steam\steamapps\common\Team Fortress 2\tf\custom\".  
-Works with cl_hud_minmode 0 and 1.  
-Custom crosshairs can be enabled in "...\scripts\hudlayout.res" by setting "visibility" to "1".
+Put `dqz_hud` folder into `...\Steam\steamapps\common\Team Fortress 2\tf\custom\`.  
+Works with `cl_hud_minmode 0` and `1`.  
+Custom crosshairs can be enabled in `...\scripts\hudlayout.res` by setting `visible` to `1`.
 
 Based on e.v.e HUD: http://tf2.gamebanana.com/guis/25711  
 Main menu from sweetHud: https://github.com/FireStarW/sweetHud  
