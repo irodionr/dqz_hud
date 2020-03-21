@@ -1,9 +1,9 @@
 # dqz_hud
+
 ![Screenshot](https://i.imgur.com/7fHRgTb.jpg)
 
-2012 version is available in it's own branch: https://github.com/irodionr/dqz_hud/tree/2012
-
-Download: https://github.com/irodionr/dqz_hud/archive/master.zip
+Download: https://github.com/irodionr/dqz_hud/archive/master.zip  
+2012 version is available in its own branch: https://github.com/irodionr/dqz_hud/tree/2012
 
 Installation:  
 Put `dqz_hud` folder into `...\Steam\steamapps\common\Team Fortress 2\tf\custom\`.  
