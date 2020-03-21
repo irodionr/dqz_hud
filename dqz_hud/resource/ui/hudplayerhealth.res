@@ -38,7 +38,7 @@
 		"scaleImage"	"1"	
 		"zpos"			"4"
 		"xpos"			"95"
-		"ypos"			"44"		
+		"ypos"			"47"		
 		"wide"			"30"
 		"tall"			"30"
 	}		
@@ -52,7 +52,7 @@
 		"scaleImage"	"1"
 		"zpos"			"3"
 		"xpos"			"93"
-		"ypos"			"42"
+		"ypos"			"45"
 		"wide"			"34"
 		"tall"			"34"	
 	}

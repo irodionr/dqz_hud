@@ -4,19 +4,17 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"			"TimePanelBG"
-		"xpos"				"30"
-		"ypos"				"6"
+		"xpos"				"25"
+		"ypos"				"1"
 		"zpos"				"2"
-		"wide"				"50"
-		"tall"				"25"
+		"wide"				"60"
+		"tall"				"35"
 		"visible"			"1"
 		"enabled"			"1"
 		"image"				"../hud/objectives_timepanel_blue_bg"	
 		"scaleImage"		"1"			
-		"src_corner_height"			"40"
-		"src_corner_width"			"40"
-		"draw_corner_width"			"0"
-		"draw_corner_height" 			"0"
+		"draw_corner_width"			"2"
+		"draw_corner_height" 			"2"
 		
 		if_match
 		{
