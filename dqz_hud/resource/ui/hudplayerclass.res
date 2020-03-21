@@ -254,12 +254,12 @@
 		"textAlignment"	"center"
 		"zpos"			"1"
 		"enabled"		"1"
-		"visible"		"0"
+		"visible"		"1"
 
 		"xpos"	"c-25"
 		"ypos"	"c-22"
 		"wide"	"50"
-		"tall"	"51"
+		"tall"	"50"
 
 		"font"			"crosshair32"
 		"labelText"		"i"
@@ -429,8 +429,8 @@
 	{
 		"ControlName"	"CTFClassImage"
 		"fieldName"		"PlayerStatusClassImage"
-		"xpos"			"c-318"
-		"ypos"			"r64"
+		"xpos"			"c-240"
+		"ypos"			"r114"
 		"zpos"			"2"
 		"wide"			"40"
 		"tall"			"0"

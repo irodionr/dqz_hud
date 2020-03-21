@@ -13,16 +13,16 @@
 		//"NegativeColor"			"0 255 255 255"		//turquoise		
 		//"NegativeColor"			"255 95 180 255"	//pink as hell
 		"delta_lifetime"		"2"
-		"delta_item_font"		"G_FontDamage"
-		"delta_item_font_big"	"G_FontCritDamage"
+		"delta_item_font"		"HudFontMediumBoldShadow"
+		"delta_item_font_big"	"HudFontMediumBoldShadow"
 		"visible"				"1"
 	}
 	"DamageAccountValue"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DamageAccountValue"
-		"xpos"			"c133"
-		"ypos"			"c155" [!$OSX]
+		"xpos"			"c-50"
+		"ypos"			"c105" [!$OSX]
 		"ypos"			"c105" [$OSX]
 		"zpos"			"2"
 		"wide"			"100"
@@ -32,20 +32,20 @@
 		"visible_minmode"		"0"
 		"enabled"		"1"
 		"labelText"		"%metal%"
-		"textAlignment"	"west"
+		"textAlignment"	"center"
 		//"fgcolor"		"255 165 0 255"		//orange
 		//"fgcolor"		"255 0 0 255"		//red
 		"fgcolor"		"255 255 0 255"		//yellow
 		//"fgcolor"		"0 255 255 255"		//turquoise
 		//"fgcolor"		"255 95 180 255"	//pink as hell
-		"font"			"HudFontMediumBoldShadow"
+		"font"			"HudFontMediumBold"
 	}	
 	"DamageAccountValueShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DamageAccountValueShadow"
-		"xpos"			"c134"
-		"ypos"			"c156" [!$OSX]
+		"xpos"			"c-49"
+		"ypos"			"c106" [!$OSX]
 		"ypos"			"c107" [$OSX]
 		"zpos"			"1"
 		"wide"			"100"
@@ -55,7 +55,7 @@
 		"visible_minmode"		"0"
 		"enabled"		"1"
 		"labelText"		"%metal%"
-		"textAlignment"	"west"
+		"textAlignment"	"center"
 		"fgcolor"		"0 0 0 255"
 		"font"			"HudFontMediumBold"
 	}

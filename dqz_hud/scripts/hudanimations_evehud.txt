@@ -289,9 +289,13 @@ event DamagedPlayer
 }
 event HitMarker
 {
+    Animate Crosshair9                  FgColor "255 0 255 255"  Linear 0.0 0.01
+
 	Animate	DamageAccountValue			Alpha	"255"	Linear 0.0 0.15
 	Animate	DamageAccountValueShadow	Alpha	"255"	Linear 0.0 0.15
-				
+	
+    Animate Crosshair9                  FgColor "white" Linear 0.25 0.01
+    
 	Animate	DamageAccountValue			Alpha	"0"		Linear 1.85 0.1	
 	Animate	DamageAccountValueShadow	Alpha	"0"		Linear 1.85 0.1
 }

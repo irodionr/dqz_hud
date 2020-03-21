@@ -176,9 +176,9 @@
 		"fieldName"				"HudWeaponAmmo"
 		"visible"				"1"
 		"enabled"				"1"		
-		"xpos"					"c40"
+		"xpos"					"c10"
 		"xpos_minmode"			"c70"
-		"ypos"					"r140"
+		"ypos"					"r145"
 		"wide"					"180"
 		"tall"					"70"
 		"tall_minmode"			"71"
@@ -230,8 +230,8 @@
 		"fieldName"				"HudMedicCharge"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-661"
-		"ypos"					"c115"
+		"xpos"					"c-702"
+		"ypos"					"c113"
 		"wide"					"1280"
 		"tall"					"800"
 	}
@@ -374,8 +374,8 @@
 		"fieldName"				"DisguiseStatus"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-351"		//c136
-		"ypos"					"r36"		//c84
+		"xpos"					"c-251"		//c136
+		"ypos"					"r86"		//c84
 		"wide"					"500"
 		"tall"					"200"
 	}

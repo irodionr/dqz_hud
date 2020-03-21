@@ -41,11 +41,11 @@
 	{
 		"ControlName"			"ImagePanel"
 		"fieldName"				"BG"
-		"xpos"					"14"
-		"ypos"					"4"
+		"xpos"					"16"
+		"ypos"					"6"
 		"zpos"					"0"
-		"wide"					"134"
-		"tall"					"10"
+		"wide"					"130"
+		"tall"					"7"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"	
@@ -85,9 +85,9 @@
 		"enabled"		"1"
 		"zpos"			"2"		
 		"xpos"			"16"
-		"ypos"			"6"
+		"ypos"			"4"
 		"wide"			"130"
-		"tall"			"6"
+		"tall"			"8"
 	}
 
 	"ChargeMark_25"
