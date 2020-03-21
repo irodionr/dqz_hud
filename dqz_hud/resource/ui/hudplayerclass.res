@@ -254,7 +254,7 @@
 		"textAlignment"	"center"
 		"zpos"			"1"
 		"enabled"		"1"
-		"visible"		"1"
+		"visible"		"0" // set to "1" to enable the hitmarker
 
 		"xpos"	"c-25"
 		"ypos"	"c-22"
