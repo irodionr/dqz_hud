@@ -7,7 +7,7 @@ Download: https://github.com/irodionr/dqz_hud/archive/2012.zip
 
 Installation:  
 Put `dqz_hud` folder into `...\Steam\steamapps\common\Team Fortress 2\tf\custom\`.  
-Use with `cl_hud_minmode 1` for all 2012 version features.  
+Use with `cl_hud_minmode 0` for all 2012 version features.  
 Custom crosshairs can be enabled in `...\scripts\hudlayout.res` by setting "visibility" to "1".
 
 Based on e.v.e HUD: http://tf2.gamebanana.com/guis/25711  
