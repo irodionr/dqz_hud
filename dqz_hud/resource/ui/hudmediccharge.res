@@ -119,9 +119,9 @@
 		"brighttext"		"1"
 		"fgcolor_override"	"255 255 255 255"
 		
-		"xpos_minmode"	"552"
-		"ypos_minmode"	"20"
-		"wide_minmode"	"220"
+		"xpos_minmode"	"793"
+		"ypos_minmode"	"40"
+		"wide_minmode"	"100"
 	}
 	"ChargeMeter1"
 	{	
@@ -141,9 +141,9 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		
-		"xpos_minmode"					"552"
-		"ypos_minmode"					"20"
-		"wide_minmode"					"55"
+		"xpos_minmode"	"793"
+		"ypos_minmode"	"40"
+		"wide_minmode"	"25"
 	}
 	"ChargeMeter2"
 	{	
@@ -163,9 +163,9 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		
-		"xpos_minmode"					"607"
-		"ypos_minmode"					"20"
-		"wide_minmode"					"55"
+		"xpos_minmode"	"818"
+		"ypos_minmode"	"40"
+		"wide_minmode"	"25"
 	}
 	"ChargeMeter3"
 	{	
@@ -185,9 +185,9 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 
-		"xpos_minmode"					"662"
-		"ypos_minmode"					"20"
-		"wide_minmode"					"55"
+		"xpos_minmode"	"843"
+		"ypos_minmode"	"40"
+		"wide_minmode"	"25"
 	}
 	"ChargeMeter4"
 	{	
@@ -207,9 +207,9 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		
-		"xpos_minmode"					"717"
-		"ypos_minmode"					"20"
-		"wide_minmode"					"55"
+		"xpos_minmode"	"868"
+		"ypos_minmode"	"40"
+		"wide_minmode"	"25"
 	}
 	
 	"ResistIcon"
@@ -282,8 +282,9 @@
 		"fillcolor"				"0 0 0 255"
 		"PaintBackgroundType"	"0"
 		
-		"xpos_minmode"					"607"
-		"ypos_minmode"					"20"
+		"xpos_minmode"					"818"
+		"ypos_minmode"					"40"
+        "wide_minmode"			        "1"
 	}	
 	"Mark2"
 	{
@@ -301,8 +302,9 @@
 		"fillcolor"				"0 0 0 255"
 		"PaintBackgroundType"	"0"
 		
-		"xpos_minmode"					"662"
-		"ypos_minmode"					"20"
+		"xpos_minmode"					"843"
+		"ypos_minmode"					"40"
+        "wide_minmode"			        "1"
 	}
 	"Mark3"
 	{
@@ -320,7 +322,8 @@
 		"fillcolor"				"0 0 0 255"
 		"PaintBackgroundType"	"0"
 		
-		"xpos_minmode"					"717"
-		"ypos_minmode"					"20"
+		"xpos_minmode"					"868"
+		"ypos_minmode"					"40"
+        "wide_minmode"			        "1"
 	}
 }
