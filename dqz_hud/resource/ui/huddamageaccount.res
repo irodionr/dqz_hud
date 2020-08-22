@@ -22,17 +22,20 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"DamageAccountValue"
 		"xpos"			"c133"
+        "xpos_minmode"			"c-211"
 		"ypos"			"c155" [!$OSX]
 		"ypos"			"c105" [$OSX]
+        "ypos_minmode"  "c90"
 		"zpos"			"2"
 		"wide"			"100"
 		"tall"			"26" [!$OSX]
 		"tall"			"36" [$OSX]
 		"visible"		"1"
-		"visible_minmode"		"0"
+		"visible_minmode"		"1"
 		"enabled"		"1"
 		"labelText"		"%metal%"
 		"textAlignment"	"west"
+        "textAlignment_minmode"	"center"
 		//"fgcolor"		"255 165 0 255"		//orange
 		//"fgcolor"		"255 0 0 255"		//red
 		"fgcolor"		"255 255 0 255"		//yellow
@@ -45,17 +48,20 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"DamageAccountValueShadow"
 		"xpos"			"c134"
+        "xpos_minmode"			"c-210"
 		"ypos"			"c156" [!$OSX]
 		"ypos"			"c107" [$OSX]
+        "ypos_minmode"  "c91"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"26" [!$OSX]
 		"tall"			"36" [$OSX]
 		"visible"		"1"
-		"visible_minmode"		"0"
+		"visible_minmode"		"1"
 		"enabled"		"1"
 		"labelText"		"%metal%"
 		"textAlignment"	"west"
+        "textAlignment_minmode"	"center"
 		"fgcolor"		"0 0 0 255"
 		"font"			"HudFontMediumBold"
 	}

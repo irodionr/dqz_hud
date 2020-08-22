@@ -105,7 +105,7 @@
 	}
 	"MutePlayersButton"
 	{
-		"command"		"OpenPlayerListDialog"
+		"command"		"OpenMutePlayerDialog"
 		"OnlyInGame"	"1"
 		"subimage"		"icon_coach" //headphones
 		"tooltip" "#MMenu_MutePlayers"

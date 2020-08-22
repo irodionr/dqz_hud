@@ -34,15 +34,15 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
 		"visible"		"1"
-		"visible_minmode"		"0"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"zpos"			"4"
-
 		"xpos"			"95"
 		"ypos"			"48"		
 		"wide"			"26"
 		"tall"			"26"
+        
+        "visible_minmode"   "0"
 	}		
 	"PlayerStatusHealthImageBG"
 	{
@@ -53,12 +53,13 @@
 		"image"			"../hud/health_bg"
 		"scaleImage"	"1"
 		"zpos"			"3"
-		
 		"xpos"			"94"
-		"xpos_minmode"	"9001"
 		"ypos"			"47"
 		"wide"			"28"
-		"tall"			"28"	
+		"tall"			"28"
+        
+        "visible_minmode"   "0"
+        "xpos_minmode"  "9994"
 	}
 	
 	"PlayerStatusHealthBonusImage"

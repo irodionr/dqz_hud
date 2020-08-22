@@ -11,7 +11,7 @@
 		"tall"	 			"40"
 		"autoResize"			"0"
 		"pinCorner"			"0"
-		"visible"			"1"
+		"visible"			"0"
 		"enabled"			"1"
 		"image"				"../hud/color_panel_brown"
 		"scaleImage"			"1"
@@ -44,10 +44,40 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ChargeLabel"
-		"xpos"					"763"
-		"ypos"					"0"
+		"xpos"					"760"
+		"ypos"					"-1"
 		"wide"					"165"
 		"zpos"					"6"
+		"tall"					"40"
+		"autoResize"			"1"
+		"pinCorner"				"2"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"5"
+		"labelText"				"#TF_UberchargeMinHUD"
+		"font"					"HudFontDisplayPrimBoldOutline"
+		"textAlignment"			"center"
+		"dulltext"				"0"
+		"brighttext"			"1"
+		"fgcolor" 				"255 255 255 255"
+		
+		// center
+		//"xpos"			"-131"
+		//"ypos"			"-6"
+		//"wide"			"50"
+		//"labelText"		"#TF_UberchargeMinHUD"
+		//"font"			"HudFontSmallBold"
+		//"textAlignment"	"east"
+	}
+    
+    "ChargeLabelShadow"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ChargeLabelShadow"
+		"xpos"					"762"
+		"ypos"					"1"
+		"wide"					"165"
+		"zpos"					"5"
 		"tall"					"40"
 		"autoResize"			"1"
 		"pinCorner"				"2"
@@ -59,7 +89,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"1"
-		"fgcolor" 				"255 255 255 255"
+		"fgcolor" 				"Black"
 		
 		// center
 		//"xpos"			"-131"
@@ -74,10 +104,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"IndividualChargesLabel"
-		"xpos"			"760"
+		"xpos"			"761"
 		"ypos"			"0"
 		"wide"			"165"
-		"zpos"			"2"
+		"zpos"			"6"
 		"tall"			"40"
 		"autoResize"	"1"
 		"pinCorner"		"2"
@@ -85,7 +115,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_IndividualUberchargesMinHUD"
-		"font"					"HudFontDisplayPrimBold"
+		"font"					"HudFontDisplayPrimBoldOutline"
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
@@ -120,8 +150,9 @@
 		"fgcolor_override"	"255 255 255 255"
 		
 		"xpos_minmode"	"793"
-		"ypos_minmode"	"40"
+		"ypos_minmode"	"0"
 		"wide_minmode"	"100"
+        "tall_minmode"  "40"
 	}
 	"ChargeMeter1"
 	{	
@@ -142,8 +173,8 @@
 		"brighttext"	"0"
 		
 		"xpos_minmode"	"793"
-		"ypos_minmode"	"40"
-		"wide_minmode"	"25"
+		"ypos_minmode"	"0"
+		"wide_minmode"	"100"
 	}
 	"ChargeMeter2"
 	{	
@@ -163,9 +194,9 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		
-		"xpos_minmode"	"818"
-		"ypos_minmode"	"40"
-		"wide_minmode"	"25"
+		"xpos_minmode"	"793"
+		"ypos_minmode"	"10"
+		"wide_minmode"	"100"
 	}
 	"ChargeMeter3"
 	{	
@@ -185,9 +216,9 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 
-		"xpos_minmode"	"843"
-		"ypos_minmode"	"40"
-		"wide_minmode"	"25"
+		"xpos_minmode"	"793"
+		"ypos_minmode"	"20"
+		"wide_minmode"	"100"
 	}
 	"ChargeMeter4"
 	{	
@@ -207,9 +238,9 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		
-		"xpos_minmode"	"868"
-		"ypos_minmode"	"40"
-		"wide_minmode"	"25"
+		"xpos_minmode"	"793"
+		"ypos_minmode"	"30"
+		"wide_minmode"	"100"
 	}
 	
 	"ResistIcon"
@@ -282,6 +313,7 @@
 		"fillcolor"				"0 0 0 255"
 		"PaintBackgroundType"	"0"
 		
+        "visible_minmode"               "0"
 		"xpos_minmode"					"818"
 		"ypos_minmode"					"40"
         "wide_minmode"			        "1"
@@ -302,6 +334,7 @@
 		"fillcolor"				"0 0 0 255"
 		"PaintBackgroundType"	"0"
 		
+        "visible_minmode"               "0"
 		"xpos_minmode"					"843"
 		"ypos_minmode"					"40"
         "wide_minmode"			        "1"
@@ -322,6 +355,7 @@
 		"fillcolor"				"0 0 0 255"
 		"PaintBackgroundType"	"0"
 		
+        "visible_minmode"               "0"
 		"xpos_minmode"					"868"
 		"ypos_minmode"					"40"
         "wide_minmode"			        "1"
