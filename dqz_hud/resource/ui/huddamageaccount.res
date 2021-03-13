@@ -21,15 +21,15 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DamageAccountValue"
-		"xpos"			"c133"
-		"ypos"			"c155" [!$OSX]
+		"xpos"			"c-133"
+		"ypos"			"c95" [!$OSX]
 		"ypos"			"c105" [$OSX]
 		"zpos"			"2"
 		"wide"			"100"
 		"tall"			"26" [!$OSX]
 		"tall"			"36" [$OSX]
 		"visible"		"1"
-		"visible_minmode"		"0"
+		//"visible_minmode"		"0"
 		"enabled"		"1"
 		"labelText"		"%metal%"
 		"textAlignment"	"west"
@@ -44,15 +44,15 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DamageAccountValueShadow"
-		"xpos"			"c134"
-		"ypos"			"c156" [!$OSX]
+		"xpos"			"c-132"
+		"ypos"			"c96" [!$OSX]
 		"ypos"			"c107" [$OSX]
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"26" [!$OSX]
 		"tall"			"36" [$OSX]
 		"visible"		"1"
-		"visible_minmode"		"0"
+		//"visible_minmode"		"0"
 		"enabled"		"1"
 		"labelText"		"%metal%"
 		"textAlignment"	"west"
