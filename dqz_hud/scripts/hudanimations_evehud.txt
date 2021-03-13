@@ -243,6 +243,19 @@ event HudTournamentSetupPanelClose
 	Animate HudTournamentSetup	Position	"c-85 -70"	Spline 0.001 0.2
 }
 
+event TeamStatus_PlayerDead
+{
+	SetVisible respawntime  1 0
+
+	Animate respawntime ypos 2 Accel 0 0.2
+}
+
+event TeamStatus_PlayerAlive
+{
+	Animate respawntime ypos 2 Accel 0 0.2
+
+	SetVisible respawntime 0 0.2
+}
 
 //====================================
 

@@ -539,18 +539,19 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"font"			"PlayerPanelPlayerName"
+				"font"			"G_FontDamage"
 				"xpos"			"cs-0.5"
-				"ypos"			"0"
-				"zpos"			"5"
+				"ypos"			"2"
+				"zpos"			"6"
 				"wide"			"f0"
-				"tall"			"19"
+				"tall"			"16"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%respawntime%"
 				"textAlignment"	"center"
 				"proportionaltoparent"	"1"
+				"fgcolor"						"235 235 235 255"
 			}
 			"chargeamount"
 			{
