@@ -102,31 +102,29 @@ event HudLowAmmoPulse
 //	Animate	HudWeaponLowAmmoImage		Alpha		"255"			Linear 0.0 0.075
 //	Animate	HudWeaponLowAmmoImage		Alpha		"0"				Linear 0.125 0.075
 	
-//	Animate AmmoInReserveShadow		Fgcolor		"240 0 0 255"		Linear 0.0 0.075
-//	Animate AmmoInReserveShadow		Fgcolor		"Black"				Linear 0.125 0.075
+	Animate AmmoInReserve		Fgcolor		"255 203 31 255"	Linear 0.0 0.075
 
-//	Animate AmmoNoClipShadow		Fgcolor		"240 0 0 255"		Linear 0.0 0.075
-//	Animate AmmoNoClipShadow		Fgcolor		"Black"				Linear 0.125 0.075
+	Animate AmmoNoClip		Fgcolor		"255 203 31 255"	Linear 0.0 0.075
 	
-//	RunEvent HudLowAmmoPulseLoop	0.25
+	RunEvent HudLowAmmoPulseLoop	0.25
 }
 
 // call to loop HudLowAmmoPulse
 event HudLowAmmoPulseLoop
 {
-//	RunEvent HudLowAmmoPulse 0.0
+	RunEvent HudLowAmmoPulse 0.0
 }
 
 event HudLowAmmoPulseStop
 {
-//	StopEvent HudLowAmmoPulse 0.0
-//	StopEvent HudLowAmmoPulseLoop 0.0
+	StopEvent HudLowAmmoPulse 0.0
+	StopEvent HudLowAmmoPulseLoop 0.0
 	
-//	StopPanelAnimations AmmoInReserveShadow 	0.0
-//	StopPanelAnimations AmmoNoClipShadow		0.0
+	StopPanelAnimations AmmoInReserve 	0.0
+	StopPanelAnimations AmmoNoClip		0.0
 	
-//	Animate AmmoInReserveShadow		Fgcolor		"Black"		Linear 0.0 0.1
-//	Animate AmmoNoClipShadow		Fgcolor		"Black"		Linear 0.0 0.1
+	Animate AmmoInReserve		Fgcolor		"White"		Linear 0.0 0.1
+	Animate AmmoNoClip		Fgcolor		"White"		Linear 0.0 0.1
 }
 
 //===========================================
