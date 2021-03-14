@@ -1267,7 +1267,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-7"
-		"ypos"					"15"
+		"ypos"					"17"
 		"wide"					"145"
 		"tall"					"55"
 		"zpos"					"10"
