@@ -102,29 +102,29 @@ event HudLowAmmoPulse
 //	Animate	HudWeaponLowAmmoImage		Alpha		"255"			Linear 0.0 0.075
 //	Animate	HudWeaponLowAmmoImage		Alpha		"0"				Linear 0.125 0.075
 	
-	Animate AmmoInReserve		Fgcolor		"255 203 31 255"	Linear 0.0 0.075
+//	Animate AmmoInReserve		Fgcolor		"255 203 31 255"	Linear 0.0 0.075
 
-	Animate AmmoNoClip		Fgcolor		"255 203 31 255"	Linear 0.0 0.075
+//	Animate AmmoNoClip		Fgcolor		"255 203 31 255"	Linear 0.0 0.075
 	
-	RunEvent HudLowAmmoPulseLoop	0.25
+//	RunEvent HudLowAmmoPulseLoop	0.25
 }
 
 // call to loop HudLowAmmoPulse
 event HudLowAmmoPulseLoop
 {
-	RunEvent HudLowAmmoPulse 0.0
+//	RunEvent HudLowAmmoPulse 0.0
 }
 
 event HudLowAmmoPulseStop
 {
-	StopEvent HudLowAmmoPulse 0.0
-	StopEvent HudLowAmmoPulseLoop 0.0
+//	StopEvent HudLowAmmoPulse 0.0
+//	StopEvent HudLowAmmoPulseLoop 0.0
 	
-	StopPanelAnimations AmmoInReserve 	0.0
-	StopPanelAnimations AmmoNoClip		0.0
+//	StopPanelAnimations AmmoInReserve 	0.0
+//	StopPanelAnimations AmmoNoClip		0.0
 	
-	Animate AmmoInReserve		Fgcolor		"White"		Linear 0.0 0.1
-	Animate AmmoNoClip		Fgcolor		"White"		Linear 0.0 0.1
+//	Animate AmmoInReserve		Fgcolor		"White"		Linear 0.0 0.1
+//	Animate AmmoNoClip		Fgcolor		"White"		Linear 0.0 0.1
 }
 
 //===========================================
@@ -198,10 +198,10 @@ event HudSnapShotReminderIn
 	
 	Animate ScreenshotPanel		Alpha		"0"			Linear 2.5 0.1	
 	
-	RunEvent HudHealthDyingPulseStop 0.0
-    RunEvent HudHealthBonusPulseStop 0.0
-    RunEvent HudLowAmmoPulseStop 0.0
-    RunEvent HudMedicChargedStop 0.0
+	RunEvent HudHealthDyingPulseStop 10.0
+    RunEvent HudHealthBonusPulseStop 10.0
+    RunEvent HudLowAmmoPulseStop 10.0
+    RunEvent HudMedicChargedStop 10.0
 }
 event HudReplayReminderIn	// Places the replay reminder in the same place as the snapshot reminder  // not anymore
 {

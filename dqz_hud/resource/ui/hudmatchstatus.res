@@ -356,18 +356,18 @@
 		"enabled"		"1"
 
 
-		"max_size"	"35"
+		"max_size"	"19" //35
 
-		"6v6_gap"	"2"
+		"6v6_gap"	"4" //2
 		"12v12_gap"	"1"
 
 		"team1_grow_dir" "west"
 		"team1_base_x"	"c-30"
-		"team1_max_expand"	"200"
+		"team1_max_expand"	"133" //200
 
 		"team2_grow_dir" "east"
 		"team2_base_x"	"c30"
-		"team2_max_expand"	"200"
+		"team2_max_expand"	"133" //200
 
 		"playerpanels_kv"
 		{
@@ -539,7 +539,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"font"			"G_FontDamage"
+				"font"			"HudFontSmallestShadow"
 				"xpos"			"cs-0.5"
 				"ypos"			"2"
 				"zpos"			"6"
