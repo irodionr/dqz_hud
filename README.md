@@ -16,8 +16,7 @@ How to enable it:
 2. In `...\dqz_hud\scripts\hudanimations_evehud.txt` find `event HitMarker` and uncomment (remove `//`) lines with `Crosshair9` in it.
 
 Based on e.v.e HUD: http://tf2.gamebanana.com/guis/25711  
-Main menu from sweetHud: https://github.com/FireStarW/sweetHud  
-Damage font from ToonHUD: http://toonhud.com/  
+Main menu from sweetHud: https://github.com/FireStarW/sweetHud   
 Custom crosshairs from yahud: https://github.com/whayay/yahud  
 Fog's Custom HUD Crosshairs V3: http://teamfortress.tv/forum/thread/14702-release-fogs-crosshairs-v3  
 
