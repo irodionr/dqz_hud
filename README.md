@@ -1,20 +1,13 @@
-# dqz_hud
+# dqz_hud m0re version
+This version is entirely based on [Hypnootize's m0rehud](https://github.com/Hypnootize/m0rehud) instead of e.v.e, while retaining mostly the same style in colours and outlines as my original e.v.e edit.
 
-![Screenshot](https://i.imgur.com/7fHRgTb.jpg)
+![Screenshot](https://i.imgur.com/C8EdHD7.jpeg)
 
-Download: https://github.com/irodionr/dqz_hud/archive/master.zip  
-2012 version is available in its own branch: https://github.com/irodionr/dqz_hud/tree/2012
+Download: https://github.com/irodionr/dqz_hud/archive/m0re.zip  
 
 Installation:  
-Put `dqz_hud` folder into `...\Steam\steamapps\common\Team Fortress 2\tf\custom\`.  
-Works with `cl_hud_minmode 0` and `1`.  
-Custom crosshairs can be enabled in `...\scripts\hudlayout.res` by setting `visible` to `1`.
-
-Based on e.v.e HUD: http://tf2.gamebanana.com/guis/25711  
-Main menu from sweetHud: https://github.com/FireStarW/sweetHud  
-Damage font from ToonHUD: http://toonhud.com/  
-Custom crosshairs from yahud: https://github.com/whayay/yahud  
-Fog's Custom HUD Crosshairs V3: http://teamfortress.tv/forum/thread/14702-release-fogs-crosshairs-v3  
+Put `m0re_dqz_hud` folder into `...\Steam\steamapps\common\Team Fortress 2\tf\custom\`.  
+Refer to the repository of the base HUD for customization: https://github.com/Hypnootize/m0rehud
 
 Contact me on Discord or Steam if you have any questions or suggestions:  
 dqz#4970  
