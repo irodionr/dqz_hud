@@ -3,7 +3,7 @@
 ![Screenshot](https://i.imgur.com/7fHRgTb.jpg)
 
 Download: https://github.com/irodionr/dqz_hud/archive/refs/heads/master.zip  
-2012 version is available in its own branch: https://github.com/irodionr/dqz_hud/tree/2012  
+2012 version: https://github.com/irodionr/dqz_hud/tree/2012  
 m0rehud-based version: https://github.com/irodionr/dqz_hud/tree/m0re
 
 Installation:  
