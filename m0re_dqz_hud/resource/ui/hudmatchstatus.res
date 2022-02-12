@@ -251,7 +251,7 @@
 				"ypos"								"rs1"
 				"zpos"								"3"
 				"wide"								"f0"
-				"tall"								"2"
+				"tall"								"3"
 				"visible"							"1"
 				"enabled"							"1"
 				"bgcolor_override"	   				"Blank"

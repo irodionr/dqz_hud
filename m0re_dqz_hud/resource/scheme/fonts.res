@@ -268,6 +268,16 @@
 				"antialias" 								"1"
 			}
 		}
+        "m0refont48Shadow"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"48"
+				"antialias" 								"1"
+                "dropshadow"                                "1"
+			}
+		}
 		"m0refont72"
 		{
 			"1"
