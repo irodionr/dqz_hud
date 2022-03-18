@@ -17,6 +17,5 @@ Damage font from ToonHUD: http://toonhud.com/
 Custom crosshairs from yahud: https://github.com/whayay/yahud  
 Fog's Custom HUD Crosshairs V3: http://teamfortress.tv/forum/thread/14702-release-fogs-crosshairs-v3  
 
-Contact me on Discord or Steam if you have any questions or suggestions:  
-dqz#4970  
-http://steamcommunity.com/profiles/76561198009427359
+Contact me on Discord if you have any questions or suggestions:  
+dqz#4970
