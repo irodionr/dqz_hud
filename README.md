@@ -9,6 +9,5 @@ Installation:
 Put `m0re_dqz_hud` folder into `...\Steam\steamapps\common\Team Fortress 2\tf\custom\`.  
 Refer to the repository of the base HUD for customization: https://github.com/Hypnootize/m0rehud
 
-Contact me on Discord or Steam if you have any questions or suggestions:  
-dqz#4970  
-http://steamcommunity.com/profiles/76561198009427359
+Contact me on Discord if you have any questions or suggestions:  
+dqz#4970
