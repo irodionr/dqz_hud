@@ -100,7 +100,7 @@
 
 	"CSpectatorTargetID"
 	{
-		"ypos"										"c122"
+		"ypos"										"c85"
 		"tall"	 									"32"
 		"tall_minmode"	 							"32"
 	}
@@ -139,7 +139,7 @@
 	"HudDeathNotice"
 	{
 		"xpos"	 									"r640"
-		"ypos"	 									"15"
+		"ypos"	 									"23"
 		"wide"	 									"628"
 		"tall"	 									"468"
 
