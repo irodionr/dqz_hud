@@ -94,7 +94,7 @@
 				"labelText"							"%respawntime%"
 				"textAlignment"						"center"
 				"fgcolor"							"White"
-				"font"								"m0refont11"
+				"font"								"m0refont11Shadow"
 			}
 
 			"chargeamount"
@@ -169,7 +169,7 @@
 		"enabled"									"1"
 		"labelText"									"#game_respawntime_in_secs"
 		"textAlignment"								"center"
-		"font"										"m0refont11"
+		"font"										"m0refont11Shadow"
 		"fgcolor"  									"White"
 		"proportionaltoparent"						"1"
 
