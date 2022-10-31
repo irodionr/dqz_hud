@@ -23,7 +23,7 @@
 		"Ammo No Clip Low"									"255 203 31 255"
 
 		"Ubercharge"										"255 255 255 255"
-		"Ubercharge Full"									"255 0 127 255"
+		"Ubercharge Full"									"20 255 100 255"
 
 		"Extra Shadow"										"0 0 0 255"
 

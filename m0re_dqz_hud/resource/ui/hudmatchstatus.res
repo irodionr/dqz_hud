@@ -160,22 +160,22 @@
 		"ypos"										"0"
 		"zpos"										"2"
 		"wide"										"f0"
-		"tall"										"15"
+		"tall"										"25"
 		"visible"									"1"
 		"enabled"									"1"
 
-		"max_size"									"19"
+		"max_size"									"26"
 
-		"6v6_gap"									"1"
+		"6v6_gap"									"2"
 		"12v12_gap"									"1"
 
 		"team1_grow_dir" 							"west"
-		"team1_base_x"								"c-45"
-		"team1_max_expand"							"150"
+		"team1_base_x"								"c-47"
+		"team1_max_expand"							"200"
 
 		"team2_grow_dir" 							"east"
 		"team2_base_x"								"c47"
-		"team2_max_expand"							"150"
+		"team2_max_expand"							"200"
 
 		"playerpanels_kv"
 		{
@@ -185,110 +185,156 @@
 			"zpos"									"1"
 			"proportionaltoparent"					"1"
 
-			"color_portrait_bg_red"					"189 59 61 255"
-			"color_portrait_bg_blue"				"90 122 143 255"
-			"color_portrait_bg_red_dead"			"15 15 15 255"
-			"color_portrait_bg_blue_dead"			"15 15 15 255"
-			"color_bar_health_high"					"75 200 25 255"
-			"color_bar_health_med"					"255 200 0 255"
+			"color_portrait_bg_red"					"235 41 41 255"
+			"color_portrait_bg_blue"				"72 153 235 255"
+			"color_portrait_bg_red_dead"			"20 21 23 255"
+			"color_portrait_bg_blue_dead"			"20 21 23 255"
+			"color_bar_health_high"					"75 210 75 255"
+			"color_bar_health_med"					"255 130 50 255"
 			"percentage_health_med"					"0.6"
 			"color_bar_health_low"					"255 40 40 255"
 			"percentage_health_low"					"0.3"
-			"color_portrait_blend_dead_red"			"255 255 255 255"
-			"color_portrait_blend_dead_blue" 		"255 255 255 255"
-
-			"classimage"
-			{
-				"ControlName"						"CTFClassImage"
-				"fieldName"							"classimage"
-				"xpos"								"cs-0.5"
-				"ypos"								"0"
-				"zpos"								"1"
-				"wide"								"o1"
-				"tall"								"f0"
-				"visible"							"1"
-				"enabled"							"1"
-				"image"								"../hud/class_scoutred"
-				"scaleImage"						"1"
-				"proportionaltoparent"				"1"
-			}
-
-			"classimagebg"
+			"color_portrait_blend_dead_red"			"227 228 230 255"
+			"color_portrait_blend_dead_blue" 		"227 228 230 255"
+			
+			"ClassImageBg"
 			{
 				"ControlName"						"Panel"
-				"fieldName"							"classimagebg"
+				"fieldName"							"ClassImageBg"
 				"xpos"								"0"
 				"ypos"								"0"
-				"zpos"								"0"
+				"zpos"								"2"
 				"wide"								"f0"
-				"tall"								"f0"
+				"tall"								"19"
 				"visible"							"1"
 				"enabled"							"1"
 				"PaintBackgroundType"				"0"
 				"proportionaltoparent"				"1"
 			}
-
-			"healthbar"
+			
+			"PlayerName"
 			{
-				"ControlName"						"ContinuousProgressBar"
-				"fieldName"							"healthbar"
+				"ControlName"						"CExLabel"
+				"fieldName"							"PlayerName"
 				"xpos"								"0"
-				"ypos"								"rs1"
-				"zpos"								"2"
+				"ypos"								"0"
+				"zpos"								"5"
 				"wide"								"f0"
-				"tall"								"3"
+				"tall"								"7"
+				"autoResize"						"0"
+				"pinCorner"							"0"
+				"visible"							"1"
+				"textinsetx"						"1"
+				"labelText"							"%playername%"
+				"font"								"VerdanaSmallest"
+				"textAlignment"						"center"
+				"bgcolor_override"					"TransparentBlack"
+				"proportionaltoparent"				"1"
+				"alpha"								"255"
+				
+				"pin_to_sibling" 					"classimagebg"
+				"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
+				"pin_to_sibling_corner" 			"PIN_CENTER_BOTTOM"
+			}
+			
+			"ClassImage"
+			{
+				"ControlName"						"CTFClassImage"
+				"fieldName"							"ClassImage"
+				"xpos"								"0"
+				"ypos"								"0"
+				"zpos"								"4"
+				"wide"								"19"
+				"tall"								"19"
 				"visible"							"1"
 				"enabled"							"1"
+				"image"								"../hud/class_scoutred"
+				"scaleImage"						"1"	
+				"proportionaltoparent"				"1"
+				
+				"pin_to_sibling" 					"classimagebg"
+				"pin_corner_to_sibling" 			"PIN_CENTER_BOTTOM"
+				"pin_to_sibling_corner" 			"PIN_CENTER_BOTTOM"
+			}
+			
+			"HealthBar"
+			{	
+				"ControlName"						"ContinuousProgressBar"
+				"fieldName"							"HealthBar"
+				"font"								"Default"
+				"xpos"								"0"
+				"ypos"								"0"
+				"zpos"								"5"
+				"wide"								"f0"
+				"tall"								"3"				
+				"autoResize"						"0"
+				"pinCorner"							"0"
+				"visible"							"1"
+				"enabled"							"1"
+				"textAlignment"						"Left"
+				"dulltext"							"0"
+				"brighttext"						"0"
 				"bgcolor_override"	  				"30 30 30 255"
 				"proportionaltoparent"				"1"
+				
+				"pin_to_sibling" 					"playername"
+				"pin_corner_to_sibling" 			"PIN_CENTER_BOTTOM"
+				"pin_to_sibling_corner" 			"PIN_CENTER_TOP"
 			}
-
-			"overhealbar"
-			{
+			
+			"OverHealBar"
+			{	
 				"ControlName"						"ContinuousProgressBar"
-				"fieldName"							"overhealbar"
+				"fieldName"							"OverHealBar"
+				"font"								"Default"
 				"xpos"								"0"
-				"ypos"								"rs1"
-				"zpos"								"3"
+				"ypos"								"0"
+				"zpos"								"6"
 				"wide"								"f0"
-				"tall"								"3"
+				"tall"								"3"				
+				"autoResize"						"0"
+				"pinCorner"							"0"
 				"visible"							"1"
 				"enabled"							"1"
+				"textAlignment"						"Left"
+				"dulltext"							"0"
+				"brighttext"						"0"
 				"bgcolor_override"	   				"Blank"
 				"fgcolor_override"	   				"255 255 255 180"
 				"proportionaltoparent"				"1"
+				
+				"pin_to_sibling" 					"healthbar"
 			}
-
-			"respawntime"
+			
+			"RespawnTime"
 			{
 				"ControlName"						"CExLabel"
-				"fieldName"							"respawntime"
+				"fieldName"							"RespawnTime"
 				"font"								"m0refont12Shadow"
-				"xpos"								"cs-0.5"
-				"ypos"								"cs-0.5"
+				"xpos"								"0"
+				"ypos"								"1"
 				"zpos"								"10"
 				"wide"								"f0"
 				"tall"								"f0"
+				"autoResize"						"0"
+				"pinCorner"							"0"
 				"visible"							"1"
 				"labelText"							"%respawntime%"
 				"textAlignment"						"center"
 				"proportionaltoparent"				"1"
 				"fgcolor"							"255 255 0 255"
+				
+				"pin_to_sibling" 					"ClassImageBg"
+				"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
+				"pin_to_sibling_corner" 			"PIN_CENTER_TOP"
 			}
-
-
-
-			"playername"
-			{
-				"ControlName"						"CExLabel"
-				"fieldName"							"playername"
-				"xpos"								"9999"
-			}
+			
 			"HealthIcon"
 			{
 				"ControlName"						"EditablePanel"
 				"fieldName"							"HealthIcon"
 				"xpos"								"9999"
+				"visible"							"0"
 			}
 			"ReadyBG"
 			{
