@@ -185,8 +185,8 @@
 			"zpos"									"1"
 			"proportionaltoparent"					"1"
 
-			"color_portrait_bg_red"					"235 41 41 255"
-			"color_portrait_bg_blue"				"72 153 235 255"
+			"color_portrait_bg_red"					"150 41 41 255"
+			"color_portrait_bg_blue"				"72 103 150 255"
 			"color_portrait_bg_red_dead"			"20 21 23 255"
 			"color_portrait_bg_blue_dead"			"20 21 23 255"
 			"color_bar_health_high"					"75 210 75 255"
