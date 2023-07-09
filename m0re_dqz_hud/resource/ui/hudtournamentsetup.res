@@ -38,7 +38,6 @@
 		"labelText"									"Ready"
 		"textAlignment"								"west"
 		"command"									"teamready"
-		"default"									"0"
 		"font"										"m0refont11"
 		"fgcolor"									"White"
 		"defaultFgColor_override" 					"White"
@@ -84,7 +83,6 @@
 		"labelText"									"Not Ready"
 		"textAlignment"								"west"
 		"command"									"teamnotready"
-		"default"									"1"
 		"font"										"m0refont11"
 		"fgcolor"									"White"
 		"defaultFgColor_override" 					"White"
@@ -112,13 +110,13 @@
 	}
 	"TournamentSetupLabel"
 	{
-		"ControlName"								"Label"
-		"fieldName"									"TournamentLabel"
+		"ControlName"								"CExLabel"
+		"fieldName"									"TournamentSetupLabel"
 		"xpos"		          						"9999"
 	}
 	"TournamentTeamNameLabel"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"TournamentTeamNameLabel"
 		"xpos"		          						"9999"
 	}

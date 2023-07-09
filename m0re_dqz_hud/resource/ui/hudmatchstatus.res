@@ -90,7 +90,6 @@
 			{
 				"name"								"ref"
 				"sequence"							"ref"
-				"default"							"1"
 			}
 
 			"animation"
@@ -475,7 +474,6 @@
 			"tall"									"205"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"autoresize"							"3"
 			"linespacing"							"26"
 			"linegap"								"4"
@@ -606,7 +604,6 @@
 			"tall"									"205"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"autoresize"							"3"
 			"linespacing"							"26"
 			"linegap"								"4"

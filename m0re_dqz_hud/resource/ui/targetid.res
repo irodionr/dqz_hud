@@ -62,11 +62,11 @@
 		"wide"			           					"640"
 		"tall"			           					"12"
 		"visible"		           					"1"
-		"enabled"		           					"1"
+		"enabled"		           					"1"				// 0 to enable color change
 		"font"			           					"m0refont11"
 		"labelText"		         					"%targetname%"
 		"textAlignment"		     					"west"
-		"fgcolor"     								"White"
+		"disabledfgcolor2_override"					"White"
 	}
 
 	"TargetDataLabel"
@@ -74,16 +74,16 @@
 		"ControlName"		       					"CExLabel"
 		"fieldName"		        					"TargetDataLabel"
 		"xpos"			           					"0"
-		"ypos"			           					"-1"
+		"ypos"			           					"0"
 		"zpos"			           					"1"
 		"wide"			           					"280"
 		"tall"			           					"11"
 		"visible"		          					"1"
-		"enabled"		           					"1"
-		"font"			           					"m0refont12Shadow"
+		"enabled"		           					"1"				// 0 to enable color change
+		"font"			           					"m0refont11Shadow"
 		"labelText"		        					"%targetdata%"
 		"textAlignment"		     					"north-west"
-		"fgcolor"     								"White"
+		"disabledfgcolor2_override"					"White"
 	}
 
 	"SpectatorGUIHealth"
