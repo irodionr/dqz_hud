@@ -1,8 +1,8 @@
 "Resource/UI/SteamFriendPanel.res"
 {
-	"avatar"
+	"Avatar"
 	{
-		"fieldName"									"avatar"
+		"fieldName"									"Avatar"
 		"xpos"										"1"
 		"ypos"										"1"
 		"wide"										"o1"
@@ -11,7 +11,6 @@
 		"mouseinputenabled"							"0"
 		"scaleImage"								"1"
 	}
-
 	"InteractButton"
 	{
 		"fieldName"									"InteractButton"
@@ -28,13 +27,12 @@
 		"roundedcorners"							"0"
 		"paintbackground"							"1"
 
-		"defaultBgColor_override"					"0 0 0 0"
+		"defaultBgColor_override"					"Blank"
 		"armedBgColor_override"						"94 150 49 5"
 
 		"border_default"							"NoBorder"
 		"border_armed"								"FriendHighlightBorder"
 	}
-
 	"NameLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -54,7 +52,6 @@
 		"mouseinputenabled"							"0"
 		"fgcolor"									"White"
 	}
-
 	"StatusLabel"
 	{
 		"fieldName"									"StatusLabel"

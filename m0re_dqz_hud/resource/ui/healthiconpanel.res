@@ -6,7 +6,8 @@
 		"fieldName"									"HealthIcon"
 		"xpos"										"0"
 		"ypos"										"0"
-		"wide"										"36"
+		"wide"										"42"
+		"wide_minmode"								"36"
 		"tall"										"40"
 		"visible"									"1"
 		"enabled"									"1"
@@ -14,7 +15,6 @@
 		"TextColor"									"HudOffWhite"
 		"autoResize"								"1"
 	}
-
 	"SpectatorGUIHealth"
 	{
 		"ControlName"								"EditablePanel"
@@ -28,6 +28,6 @@
 		"TFFont"									"HudFontSmall"
 		"TextColor"									"HudOffWhite"
 		"autoResize"								"1"
-		"HealthBonusPosAdj"     					"23"
+		"HealthBonusPosAdj"							"23"
 	}
 }

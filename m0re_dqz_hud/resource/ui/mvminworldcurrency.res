@@ -17,7 +17,6 @@
 		"font"										"m0refont16"
 		"fgcolor"									"100 255 0 255"
 	}
-
 	"CurrencyBad"
 	{
 		"ControlName"								"CExLabel"
@@ -35,7 +34,6 @@
 		"font"										"m0refont16"
 		"fgcolor"									"255 0 0 255"
 	}
-
 	"CurrencyShadow"
 	{
 		"ControlName"								"CExLabel"
@@ -67,11 +65,21 @@
 		"ControlName"								"EditablePanel"
 		"fieldName"									"BackgroundGood"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"MoneyImagePanel"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"MoneyImagePanel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

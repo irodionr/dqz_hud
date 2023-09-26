@@ -2,12 +2,14 @@
 
 "Resource/UI/Destroy_Menu/Dispenser_Inactive.res"
 {
-	"BuildingIcon"
+	"ItemNameLabel"
 	{
-		"xpos"										"cs-0.5+1"
-		"icon"										"obj_status_dispenser"
+		"labelText"									"#TF_Object_Dispenser"
 	}
-
+	"BuildingImage"
+	{
+		"labelText"									"w"
+	}
 	"NumberLabel"
 	{
 		"labelText"									"2"

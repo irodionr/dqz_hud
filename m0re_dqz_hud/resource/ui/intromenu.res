@@ -1,19 +1,31 @@
 "Resource/UI/IntroMenu.res"
 {
-	"intro"
+	"Intro"
 	{
 		"ControlName"								"CTFIntroMenu"
-		"fieldName"									"intro"
+		"fieldName"									"Intro"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"f0"
 		"tall"										"480"
 		"visible"									"1"
 		"enabled"									"1"
-		"paintbackground"							"1"
-		"bgcolor_override"							"0 0 0 200"
+		"paintbackground"							"0"
 	}
-
+	"FullScreenBG"
+	{
+		"ControlName"								"Panel"
+		"fieldName"									"FullScreenBG"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"0"
+		"wide"										"f0"
+		"tall"										"f0"
+		"visible"									"1"
+		"enabled"									"1"
+		"paintbackground"							"1"
+		"bgcolor_override"							"TransparentMediumBlack"
+	}
 	"VideoPanel"
 	{
 		"ControlName"								"CTFVideoPanel"
@@ -29,7 +41,6 @@
 		"end_delay"									"0"
 		"proportionaltoparent"						"1"
 	}
-
 	"VideoCaption"
 	{
 		"ControlName"								"CExLabel"
@@ -49,13 +60,12 @@
 		"centerwrap"								"1"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"0 0 0 100"
+		"bgcolor_override"							"TransparentLightBlack"
 
 		"pin_to_sibling"							"VideoPanel"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
 	}
-
 	"Skip"
 	{
 		"ControlName"								"CExButton"
@@ -70,20 +80,19 @@
 		"labelText"									"CONTINUE (&E) "
 		"textAlignment"								"center"
 		"command"									"skip"
-		"font"										"Coolvetica15Shadow"
+		"font"										"Coolvetica15"
 
 		"paintbackground"							"0"
 		"paintborder"								"0"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override" 					"Menu Labels"
-		"depressedFgColor_override" 				"White"
+		"armedFgColor_override"						"Menu Labels"
+		"depressedFgColor_override"					"White"
 
 		"pin_to_sibling"							"VideoCaption"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
 	}
-
 	"Back"
 	{
 		"ControlName"								"CExButton"
@@ -98,14 +107,14 @@
 		"labelText"									"BACK (&Q) "
 		"textAlignment"								"center"
 		"command"									"back"
-		"font"										"Coolvetica15Shadow"
+		"font"										"Coolvetica15"
 
 		"paintbackground"							"0"
 		"paintborder"								"0"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override" 					"Menu Labels"
-		"depressedFgColor_override" 				"White"
+		"armedFgColor_override"						"Menu Labels"
+		"depressedFgColor_override"					"White"
 
 		"pin_to_sibling"							"Skip"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
@@ -123,29 +132,54 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"titlelabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"ReplayVideo"
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"ReplayVideo"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"ShadedBar"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"ShadedBar"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"MenuBG"
 	{
 		"ControlName"								"CModelPanel"
 		"fieldName"									"MenuBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"Continue"
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"Continue"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

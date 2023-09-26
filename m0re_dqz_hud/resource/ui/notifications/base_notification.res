@@ -13,7 +13,7 @@
 		"proportionaltoparent"						"1"
 		"labelText"									"60 seconds until gates open"
 		"textAlignment"								"center"
-		"font"										"m0refont11"
+		"font"										"m0refont12Shadow"
 	}
 
 
@@ -27,12 +27,21 @@
 		"ControlName"								"CIconPanel"
 		"fieldName"									"Notification_Icon"
 		"xpos"										"9999"
+		"ypos"										"9999"
 		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"Notification_Background"
 	{
 		"ControlName"								"CImagePanel"
 		"fieldName"									"Notification_Background"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
 		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

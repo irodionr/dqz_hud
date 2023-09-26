@@ -17,7 +17,6 @@
 		"font"										"m0refont16"
 		"fgcolor"									"White"
 	}
-
 	"CurrencyShadow"
 	{
 		"ControlName"								"CExLabel"
@@ -46,14 +45,24 @@
 
 	"WhiteBG"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"Panel"
 		"fieldName"									"WhiteBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"GreenBG"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"Panel"
 		"fieldName"									"GreenBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

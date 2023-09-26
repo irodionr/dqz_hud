@@ -12,7 +12,6 @@
 		"visible"									"0"
 		"enabled"									"1"
 	}
-
 	"AchievementName"
 	{
 		"ControlName"								"CExLabel"
@@ -28,7 +27,6 @@
 		"textAlignment"								"west"
 		"fgcolor"									"White"
 	}
-
 	"AchievementDesc"
 	{
 		"ControlName"								"CExLabel"
@@ -44,7 +42,6 @@
 		"TextAlignment"								"west"
 		"fgcolor"									"White"
 	}
-
 	"ProgressBarBG"
 	{
 		"ControlName"								"ImagePanel"
@@ -56,9 +53,8 @@
 		"zpos"										"4"
 		"visible"									"1"
 		"enabled"									"1"
-		"fillcolor"	 								"0 0 0 50"
+		"fillcolor"									"TransparentLightestBlack"
 	}
-
 	"ProgressBar"
 	{
 		"ControlName"								"ImagePanel"
@@ -84,5 +80,10 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"AchievementNameGlow"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

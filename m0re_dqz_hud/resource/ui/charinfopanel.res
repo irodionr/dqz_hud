@@ -1,9 +1,11 @@
+#base "reloadscheme.res"
+
 "Resource/UI/CharInfoPanel.res"
 {
-	"character_info"
+	"Character_Info"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"character_info"
+		"fieldName"									"Character_Info"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"f0"
@@ -12,22 +14,21 @@
 		"enabled"									"1"
 		"settitlebarvisible"						"1"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"46 43 42 0"
-		"infocus_bgcolor_override"					"46 43 42 0"
-		"outoffocus_bgcolor_override"				"46 43 42 0"
+		"bgcolor_override"							"Blank"
+		"infocus_bgcolor_override"					"Blank"
+		"outoffocus_bgcolor_override"				"Blank"
 
 		"title"										"#CharInfoAndSetup"
 		"title_font"								"HudFontMediumBold"
 		"titletextinsetX"							"40"
 		"titletextinsetY"							"0"
-		"titlebarfgcolor_override"					"200 187 161 255"
-		"titlebardisabledfgcolor_override"			"200 187 161 255"
-		"titlebarbgcolor_override"					"46 43 42 255"
+		"titlebarfgcolor_override"					"Blank"
+		"titlebardisabledfgcolor_override"			"Blank"
+		"titlebarbgcolor_override"					"Blank"
 
 		"clientinsetx_override"						"0"
 		"sheetinset_bottom"							"40"
 	}
-
 	"BackgroundHeader"
 	{
 		"ControlName"								"ImagePanel"
@@ -42,7 +43,6 @@
 		"image"										"loadout_header"
 		"tileImage"									"1"
 	}
-
 	"BackgroundFooter"
 	{
 		"ControlName"								"ImagePanel"
@@ -57,7 +57,6 @@
 		"image"										"loadout_bottom_gradient"
 		"tileImage"									"1"
 	}
-
 	"FooterLine"
 	{
 		"ControlName"								"ImagePanel"
@@ -72,7 +71,6 @@
 		"image"										"loadout_solid_line"
 		"scaleImage"								"1"
 	}
-
 	"Sheet"
 	{
 		"ControlName"								"EditablePanel"
@@ -81,7 +79,7 @@
 		"tabxdelta"									"10"
 		"tabwidth"									"240"
 		"tabheight"									"20"
-		"transition_time" 							"0"
+		"transition_time"							"0"
 		"yoffset"									"14"
 
 		"HeaderLine"
@@ -98,20 +96,18 @@
 			"image"									"loadout_solid_line"
 			"scaleImage"							"1"
 		}
-
-		"tabskv"
+		"TabsKV"
 		{
 			"textinsetx"							"40"
 			"font"									"HudFontMediumSmallBold"
 			"selectedcolor"							"200 187 161 255"
 			"unselectedcolor"						"130 120 104 255"
-			"defaultBgColor_override"				"46 43 42 255"
+			"defaultBgColor_override"				"TanDarker"
 			"paintbackground"						"0"
 			"activeborder_override"					"OutlinedGreyBox"
-			"normalborder_override" 				"OutlinedDullGreyBox"
+			"normalborder_override"					"OutlinedDullGreyBox"
 		}
 	}
-
 	"BackButton"
 	{
 		"ControlName"								"CExButton"
@@ -131,7 +127,6 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 	}
-
 	"CloseButton"
 	{
 		"ControlName"								"CExButton"
@@ -151,7 +146,6 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 	}
-
 	"NotificationsPresentPanel"
 	{
 		"ControlName"								"CNotificationsPresentPanel"
@@ -164,22 +158,8 @@
 		"visible"									"0"
 		"enabled"									"1"
 	}
-
 	"ReloadSchemeButton"
 	{
-		"ControlName"								"CExButton"
-		"fieldName"									"ReloadSchemeButton"
-		"xpos"										"rs1-5"
-		"ypos"										"35"
-		"zpos"										"250"
-		"wide"										"15"
-		"tall"										"15"
-		"visible"									"0"
-		"enabled"									"1"
-		"proportionaltoparent"						"1"
-		"labelText"									"RS"
-		"font"										"Default"
-		"textAlignment"								"center"
-		"Command"									"reloadscheme"
+		"ypos"										"30"
 	}
 }

@@ -12,7 +12,6 @@
 		"visible"									"1"
 		"enabled"									"1"
 	}
-
 	"BlueScore"
 	{
 		"ControlName"								"CExLabel"
@@ -27,7 +26,7 @@
 		"textAlignment"								"east"
 		"labelText"									"%bluescore%"
 		"font"										"m0refont30"
-		"fgcolor"									"m0reblue"
+		"fgcolor"									"HUDBlueTeamSolid"
 	}
 	"BlueScoreShadow"
 	{
@@ -47,7 +46,6 @@
 
 		"pin_to_sibling"							"BlueScore"
 	}
-
 	"RedScore"
 	{
 		"ControlName"								"CExLabel"
@@ -62,7 +60,7 @@
 		"textAlignment"								"west"
 		"labelText"									"%redscore%"
 		"font"										"m0refont30"
-		"fgcolor"									"m0rered"
+		"fgcolor"									"HUDRedTeamSolid"
 	}
 	"RedScoreShadow"
 	{
@@ -82,7 +80,6 @@
 
 		"pin_to_sibling"							"RedScore"
 	}
-
 	"PlayingToCluster"
 	{
 		"ControlName"								"EditablePanel"
@@ -112,12 +109,16 @@
 			"font"									"DefaultVerySmall"
 			"fgcolor"								"White"
 		}
-
 		"PlayingToBG"
 		{
 			"ControlName"							"CTFImagePanel"
 			"fieldName"								"PlayingToBG"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 
@@ -132,17 +133,32 @@
 		"ControlName"								"ImagePanel"
 		"fieldName"									"LeftSideBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"RightSideBG"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"RightSideBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"OutlineBG"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"OutlineBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

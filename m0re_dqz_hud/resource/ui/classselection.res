@@ -1,9 +1,9 @@
 "Resource/UI/ClassSelection.res"
 {
-	"class"
+	"Class"
 	{
 		"ControlName"								"Frame"
-		"fieldName"									"class"
+		"fieldName"									"Class"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"f0"
@@ -11,15 +11,28 @@
 		"visible"									"1"
 		"enabled"									"1"
 	}
+	"FullScreenBG"
+	{
+		"ControlName"								"Panel"
+		"fieldName"									"FullScreenBG"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"0"
+		"wide"										"f0"
+		"tall"										"f0"
+		"visible"									"1"
+		"enabled"									"1"
+		"paintbackground"							"1"
+		"bgcolor_override"							"TransparentMediumBlack"
+	}
 
 	//==================================================================================================================================================
 	// CLASSES ANCHOR
 	// Moves all the class buttons at the same time
 	//==================================================================================================================================================
-
 	"ClassesAnchor"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"Panel"
 		"fieldname"									"ClassesAnchor"
 		"xpos"										"c15"
 		"ypos"										"c-65"
@@ -32,7 +45,6 @@
 	//==================================================================================================================================================
 	// LOADOUT EDIT
 	//==================================================================================================================================================
-
 	"EditLoadoutButton"
 	{
 		"ControlName"								"CExButton"
@@ -47,17 +59,17 @@
 		"labelText"									"Loadout (&E)"
 		"textAlignment"								"west"
 		"Command"									"openloadout"
-		"font"										"m0refont11Shadow"
+		"font"										"m0refont11"
 		"stayselectedonclick"						"1"
 		"selectonhover"								"1"
 		"keyboardinputenabled"						"0"
 
 		"paintbackground"							"0"
 		"fgcolor"									"White"
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"Class Selection"
-		"depressedFgColor_override" 				"Class Selection"
-		"selectedFgColor_override" 					"Class Selection"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"Class Selection"
+		"depressedFgColor_override"					"Class Selection"
+		"selectedFgColor_override"					"Class Selection"
 
 		"pin_to_sibling"							"ClassesAnchor"
 	}
@@ -65,11 +77,10 @@
 	//==================================================================================================================================================
 	// SCOUT
 	//==================================================================================================================================================
-
-	"scout"
+	"Scout"
 	{
 		"ControlName"								"CExImageButton"
-		"fieldName"									"scout"
+		"fieldName"									"Scout"
 		"xpos"										"0"
 		"ypos"										"7"
 		"zpos"										"6"
@@ -80,26 +91,26 @@
 		"labelText"									"&1  Scout"
 		"textAlignment"								"west"
 		"Command"									"joinclass scout"
-		"font"										"m0refont11Shadow"
+		"font"										"m0refont11"
 		"stayselectedonclick"						"1"
 		"selectonhover"								"1"
 		"keyboardinputenabled"						"0"
 
 		"paintbackground"							"0"
 		"fgcolor"									"White"
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"Class Selection"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"Class Selection"
 		"depressedFgColor_override"					"Class Selection"
-		"selectedFgColor_override" 					"Class Selection"
+		"selectedFgColor_override"					"Class Selection"
 
 		"pin_to_sibling"							"EditLoadoutButton"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
-	"numScout"
+	"NumScout"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"numScout"
+		"fieldName"									"NumScout"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"50"
@@ -109,7 +120,7 @@
 		"enabled"									"1"
 		"textAlignment"								"west"
 		"labelText"									"%numScout%"
-		"font"										"m0refont11Shadow"
+		"font"										"m0refont11"
 		"fgcolor"									"White"
 
 		"pin_to_sibling"							"scout"
@@ -138,11 +149,10 @@
 	//==================================================================================================================================================
 	// SOLDIER
 	//==================================================================================================================================================
-
-	"soldier"
+	"Soldier"
 	{
 		"ControlName"								"CExImageButton"
-		"fieldName"									"soldier"
+		"fieldName"									"Soldier"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"6"
@@ -153,26 +163,26 @@
 		"labelText"									"&2  Soldier"
 		"textAlignment"								"west"
 		"Command"									"joinclass soldier"
-		"font"										"m0refont11Shadow"
+		"font"										"m0refont11"
 		"stayselectedonclick"						"1"
 		"selectonhover"								"1"
 		"keyboardinputenabled"						"0"
 
 		"paintbackground"							"0"
 		"fgcolor"									"White"
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"Class Selection"
-		"depressedFgColor_override" 				"Class Selection"
-		"selectedFgColor_override" 					"Class Selection"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"Class Selection"
+		"depressedFgColor_override"					"Class Selection"
+		"selectedFgColor_override"					"Class Selection"
 
 		"pin_to_sibling"							"scout"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
-	"numSoldier"
+	"NumSoldier"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"numSoldier"
+		"fieldName"									"NumSoldier"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"50"
@@ -182,7 +192,7 @@
 		"enabled"									"1"
 		"textAlignment"								"west"
 		"labelText"									"%numSoldier%"
-		"font"										"m0refont11Shadow"
+		"font"										"m0refont11"
 		"fgcolor"									"White"
 
 		"pin_to_sibling"							"soldier"
@@ -211,11 +221,10 @@
 	//==================================================================================================================================================
 	// PYRO
 	//==================================================================================================================================================
-
-	"pyro"
+	"Pyro"
 	{
 		"ControlName"								"CExImageButton"
-		"fieldName"									"pyro"
+		"fieldName"									"Pyro"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"6"
@@ -226,26 +235,26 @@
 		"labelText"									"&3  Pyro"
 		"textAlignment"								"west"
 		"Command"									"joinclass pyro"
-		"font"										"m0refont11Shadow"
+		"font"										"m0refont11"
 		"stayselectedonclick"						"1"
 		"selectonhover"								"1"
 		"keyboardinputenabled"						"0"
 
 		"paintbackground"							"0"
 		"fgcolor"									"White"
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"Class Selection"
-		"depressedFgColor_override" 				"Class Selection"
-		"selectedFgColor_override" 					"Class Selection"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"Class Selection"
+		"depressedFgColor_override"					"Class Selection"
+		"selectedFgColor_override"					"Class Selection"
 
 		"pin_to_sibling"							"soldier"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
-	"numPyro"
+	"NumPyro"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"numPyro"
+		"fieldName"									"NumPyro"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"50"
@@ -255,7 +264,7 @@
 		"enabled"									"1"
 		"textAlignment"								"west"
 		"labelText"									"%numPyro%"
-		"font"										"m0refont11Shadow"
+		"font"										"m0refont11"
 		"fgcolor"									"White"
 
 		"pin_to_sibling"							"pyro"
@@ -284,11 +293,10 @@
 	//==================================================================================================================================================
 	// DEMOMAN
 	//==================================================================================================================================================
-
-	"demoman"
+	"Demoman"
 	{
 		"ControlName"								"CExImageButton"
-		"fieldName"									"demoman"
+		"fieldName"									"Demoman"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"6"
@@ -299,26 +307,26 @@
 		"labelText"									"&4  Demoman"
 		"textAlignment"								"west"
 		"Command"									"joinclass demoman"
-		"font"										"m0refont11Shadow"
+		"font"										"m0refont11"
 		"stayselectedonclick"						"1"
 		"selectonhover"								"1"
 		"keyboardinputenabled"						"0"
 
 		"paintbackground"							"0"
 		"fgcolor"									"White"
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"Class Selection"
-		"depressedFgColor_override" 				"Class Selection"
-		"selectedFgColor_override" 					"Class Selection"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"Class Selection"
+		"depressedFgColor_override"					"Class Selection"
+		"selectedFgColor_override"					"Class Selection"
 
 		"pin_to_sibling"							"pyro"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
-	"numDemoman"
+	"NumDemoman"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"numDemoman"
+		"fieldName"									"NumDemoman"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"50"
@@ -328,7 +336,7 @@
 		"enabled"									"1"
 		"textAlignment"								"west"
 		"labelText"									"%numDemoman%"
-		"font"										"m0refont11Shadow"
+		"font"										"m0refont11"
 		"fgcolor"									"White"
 
 		"pin_to_sibling"							"demoman"
@@ -357,11 +365,10 @@
 	//==================================================================================================================================================
 	// HEAVY
 	//==================================================================================================================================================
-
-	"heavyweapons"
+	"HeavyWeapons"
 	{
 		"ControlName"								"CExImageButton"
-		"fieldName"									"heavyweapons"
+		"fieldName"									"HeavyWeapons"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"6"
@@ -372,26 +379,26 @@
 		"labelText"									"&5  Heavy"
 		"textAlignment"								"west"
 		"Command"									"joinclass heavyweapons"
-		"font"										"m0refont11Shadow"
+		"font"										"m0refont11"
 		"stayselectedonclick"						"1"
 		"selectonhover"								"1"
 		"keyboardinputenabled"						"0"
 
 		"paintbackground"							"0"
 		"fgcolor"									"White"
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"Class Selection"
-		"depressedFgColor_override" 				"Class Selection"
-		"selectedFgColor_override" 					"Class Selection"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"Class Selection"
+		"depressedFgColor_override"					"Class Selection"
+		"selectedFgColor_override"					"Class Selection"
 
 		"pin_to_sibling"							"demoman"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
-	"numHeavy"
+	"NumHeavy"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"numHeavy"
+		"fieldName"									"NumHeavy"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"50"
@@ -401,7 +408,7 @@
 		"enabled"									"1"
 		"textAlignment"								"west"
 		"labelText"									"%numHeavy%"
-		"font"										"m0refont11Shadow"
+		"font"										"m0refont11"
 		"fgcolor"									"White"
 
 		"pin_to_sibling"							"heavyweapons"
@@ -430,11 +437,10 @@
 	//==================================================================================================================================================
 	// ENGINEER
 	//==================================================================================================================================================
-
-	"engineer"
+	"Engineer"
 	{
 		"ControlName"								"CExImageButton"
-		"fieldName"									"engineer"
+		"fieldName"									"Engineer"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"6"
@@ -445,26 +451,26 @@
 		"labelText"									"&6  Engineer"
 		"textAlignment"								"west"
 		"Command"									"joinclass engineer"
-		"font"										"m0refont11Shadow"
+		"font"										"m0refont11"
 		"stayselectedonclick"						"1"
 		"selectonhover"								"1"
 		"keyboardinputenabled"						"0"
 
 		"paintbackground"							"0"
 		"fgcolor"									"White"
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"Class Selection"
-		"depressedFgColor_override" 				"Class Selection"
-		"selectedFgColor_override" 					"Class Selection"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"Class Selection"
+		"depressedFgColor_override"					"Class Selection"
+		"selectedFgColor_override"					"Class Selection"
 
 		"pin_to_sibling"							"heavyweapons"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
-	"numEngineer"
+	"NumEngineer"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"numEngineer"
+		"fieldName"									"NumEngineer"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"50"
@@ -474,7 +480,7 @@
 		"enabled"									"1"
 		"textAlignment"								"west"
 		"labelText"									"%numEngineer%"
-		"font"										"m0refont11Shadow"
+		"font"										"m0refont11"
 		"fgcolor"									"White"
 
 		"pin_to_sibling"							"engineer"
@@ -503,11 +509,10 @@
 	//==================================================================================================================================================
 	// MEDIC
 	//==================================================================================================================================================
-
-	"medic"
+	"Medic"
 	{
 		"ControlName"								"CExImageButton"
-		"fieldName"									"medic"
+		"fieldName"									"Medic"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"6"
@@ -518,26 +523,26 @@
 		"labelText"									"&7  Medic"
 		"textAlignment"								"west"
 		"Command"									"joinclass medic"
-		"font"										"m0refont11Shadow"
+		"font"										"m0refont11"
 		"stayselectedonclick"						"1"
 		"selectonhover"								"1"
 		"keyboardinputenabled"						"0"
 
 		"paintbackground"							"0"
 		"fgcolor"									"White"
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"Class Selection"
-		"depressedFgColor_override" 				"Class Selection"
-		"selectedFgColor_override" 					"Class Selection"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"Class Selection"
+		"depressedFgColor_override"					"Class Selection"
+		"selectedFgColor_override"					"Class Selection"
 
 		"pin_to_sibling"							"engineer"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
-	"numMedic"
+	"NumMedic"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"numMedic"
+		"fieldName"									"NumMedic"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"50"
@@ -547,7 +552,7 @@
 		"enabled"									"1"
 		"textAlignment"								"west"
 		"labelText"									"%numMedic%"
-		"font"										"m0refont11Shadow"
+		"font"										"m0refont11"
 		"fgcolor"									"White"
 
 		"pin_to_sibling"							"medic"
@@ -576,11 +581,10 @@
 	//==================================================================================================================================================
 	// SNIPER
 	//==================================================================================================================================================
-
-	"sniper"
+	"Sniper"
 	{
 		"ControlName"								"CExImageButton"
-		"fieldName"									"sniper"
+		"fieldName"									"Sniper"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"6"
@@ -591,26 +595,26 @@
 		"labelText"									"&8  Sniper"
 		"textAlignment"								"west"
 		"Command"									"joinclass sniper"
-		"font"										"m0refont11Shadow"
+		"font"										"m0refont11"
 		"stayselectedonclick"						"1"
 		"selectonhover"								"1"
 		"keyboardinputenabled"						"0"
 
 		"paintbackground"							"0"
 		"fgcolor"									"White"
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"Class Selection"
-		"depressedFgColor_override" 				"Class Selection"
-		"selectedFgColor_override" 					"Class Selection"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"Class Selection"
+		"depressedFgColor_override"					"Class Selection"
+		"selectedFgColor_override"					"Class Selection"
 
 		"pin_to_sibling"							"medic"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
-	"numSniper"
+	"NumSniper"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"numSniper"
+		"fieldName"									"NumSniper"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"50"
@@ -620,7 +624,7 @@
 		"enabled"									"1"
 		"textAlignment"								"west"
 		"labelText"									"%numSniper%"
-		"font"										"m0refont11Shadow"
+		"font"										"m0refont11"
 		"fgcolor"									"White"
 
 		"pin_to_sibling"							"sniper"
@@ -649,11 +653,10 @@
 	//==================================================================================================================================================
 	// SPY
 	//==================================================================================================================================================
-
-	"spy"
+	"Spy"
 	{
 		"ControlName"								"CExImageButton"
-		"fieldName"									"spy"
+		"fieldName"									"Spy"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"6"
@@ -664,26 +667,26 @@
 		"labelText"									"&9  Spy"
 		"textAlignment"								"west"
 		"Command"									"joinclass spy"
-		"font"										"m0refont11Shadow"
+		"font"										"m0refont11"
 		"stayselectedonclick"						"1"
 		"selectonhover"								"1"
 		"keyboardinputenabled"						"0"
 
 		"paintbackground"							"0"
 		"fgcolor"									"White"
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"Class Selection"
-		"depressedFgColor_override" 				"Class Selection"
-		"selectedFgColor_override" 					"Class Selection"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"Class Selection"
+		"depressedFgColor_override"					"Class Selection"
+		"selectedFgColor_override"					"Class Selection"
 
 		"pin_to_sibling"							"sniper"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
-	"numSpy"
+	"NumSpy"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"numSpy"
+		"fieldName"									"NumSpy"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"50"
@@ -693,7 +696,7 @@
 		"enabled"									"1"
 		"textAlignment"								"west"
 		"labelText"									"%numSpy%"
-		"font"										"m0refont11Shadow"
+		"font"										"m0refont11"
 		"fgcolor"									"White"
 
 		"pin_to_sibling"							"spy"
@@ -722,8 +725,7 @@
 	//==================================================================================================================================================
 	// RANDOM
 	//==================================================================================================================================================
-
-	"random"
+	"Random"
 	{
 		"xpos"										"0"
 		"ypos"										"7"
@@ -735,27 +737,26 @@
 		"labelText"									"Random (&R)"
 		"textAlignment"								"west"
 		"Command"									"joinclass random"
-		"font"										"m0refont11Shadow"
+		"font"										"m0refont11"
 		"stayselectedonclick"						"1"
 		"selectonhover"								"1"
 		"keyboardinputenabled"						"0"
 
 		"paintbackground"							"0"
 		"fgcolor"									"White"
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"Class Selection"
-		"depressedFgColor_override" 				"Class Selection"
-		"selectedFgColor_override" 					"Class Selection"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"Class Selection"
+		"depressedFgColor_override"					"Class Selection"
+		"selectedFgColor_override"					"Class Selection"
 
 		"pin_to_sibling"							"spy"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 
 	//==================================================================================================================================================
 	// 3D PLAYER MODEL
 	//==================================================================================================================================================
-
 	"TFPlayerModel"
 	{
 		"ControlName"								"CTFPlayerModelPanel"
@@ -773,22 +774,22 @@
 		"allow_rot"									"0"
 
 		"paintbackground"							"0"
-		"paintbackgroundenabled" 					"0"
+		"paintbackgroundenabled"					"0"
 
-		"model"
+		"Model"
 		{
 			"force_pos"								"1"
 
-			"angles_x" 								"0"
-			"angles_y" 								"180"
-			"angles_z" 								"0"
-			"origin_x" 								"320"
-			"origin_y" 								"10"
-			"origin_z" 								"-40"
+			"angles_x"								"0"
+			"angles_y"								"180"
+			"angles_z"								"0"
+			"origin_x"								"320"
+			"origin_y"								"10"
+			"origin_z"								"-40"
 			"frame_origin_x"						"0"
 			"frame_origin_y"						"0"
 			"frame_origin_z"						"0"
-			"spotlight" 							"1"
+			"spotlight"								"1"
 
 			"modelname"								""
 			"vcd"									"class_select.vcd"
@@ -806,161 +807,296 @@
 		"ControlName"								"CExButton"
 		"fieldName"									"ResetButton"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"ClassMenuSelect"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ClassMenuSelect"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"MenuBG"
 	{
 		"ControlName"								"CModelPanel"
 		"fieldName"									"MenuBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"Hint"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"Hint"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"ShadedBar"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"ShadedBar"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"SysMenu"
 	{
 		"ControlName"								"Menu"
 		"fieldName"									"SysMenu"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"localPlayerImage"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"localPlayerImage"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"localPlayerBG"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"localPlayerBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"countImage0"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"countImage0"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"countImage1"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"countImage1"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"countImage2"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"countImage2"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"countImage3"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"countImage3"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"countImage4"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"countImage4"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"countImage5"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"countImage5"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"countImage6"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"countImage6"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"countImage7"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"countImage7"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"countImage8"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"countImage8"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"countImage9"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"countImage9"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"countImage10"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"countImage10"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"CountLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CountLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"CancelButton"
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"CancelButton"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"StartExplanation"
 	{
 		"ControlName"								"CExplanationPopup"
 		"fieldName"									"StartExplanation"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"Offense"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"Offense"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"Defense"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"Defense"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"Support"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"Support"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"ClassTipsPanel"
 	{
 		"ControlName"								"CTFClassTipsPanel"
 		"fieldName"									"ClassTipsPanel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"ClassHighlightPanel"
 	{
 		"ControlName"								"CExplanationPopup"
 		"fieldName"									"ClassHighlightPanel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

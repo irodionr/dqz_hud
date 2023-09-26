@@ -2,18 +2,24 @@
 
 "Resource/UI/Disguise_Menu/Spy_Red.res"
 {
+	"TitleBG"
+	{
+		"visible"									"0"
+	}
+	"ItemNameLabel"
+	{
+		"labelText"									"#TF_Class_Name_Spy"
+	}
 	"ClassIcon"
 	{
-		"icon"										"hud_menu_spy_red"
+		"labelText"									"i"
 	}
-
-	"NewNumberLabel"
-	{
-		"labelText"									"3"
-	}
-
 	"NumberLabel"
 	{
 		"labelText"									"9"
+	}
+	"NewNumberLabel"
+	{
+		"labelText"									"3"
 	}
 }

@@ -1,14 +1,5 @@
-"Resource/UI/HudItemEffectMeter_KillStreak.res"
-{
-	"HudItemEffectMeter"
-	{
-		"fieldName"									"HudItemEffectMeter"
-		"xpos"										"9999"
-	}
+// CUSTOMIZATIONS
+#base "../../cfg/m0re_killstreak.txt"
 
-	"ItemEffectMeter"								//its here just to remove the console error :)
-	{
-		"ControlName"								"ContinuousProgressBar"
-		"fieldName"									"ItemEffectMeter"
-	}
-}
+// BASE CONTENT
+#base "huditemeffectmeter_killstreak_base.res"
