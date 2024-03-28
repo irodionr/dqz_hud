@@ -31,27 +31,30 @@
 	{
 		"ControlName"								"CExRichText"
 		"fieldName"									"TFTextMessage"
-		"font"										"m0refont11"
 		"xpos"										"cs-0.5"
 		"ypos"										"cs-0.5"
 		"zpos"										"1"
-		"wide"										"400"
-		"tall"										"200"
+		"wide"										"460"
+		"tall"										"260"
 		"visible"									"1"
 		"enabled"									"1"
+		"font"										"m0refont11"
 		"textAlignment"								"west"
 		"fgcolor"									"White"
 		"proportionaltoparent"						"1"
+
+		"paintbackground"							"0"
+		"bgcolor_override"							"TransparentMediumBlack"
 	}
 	"HTMLMessage"
 	{
 		"ControlName"								"HTML"
 		"fieldName"									"HTMLMessage"
 		"xpos"										"cs-0.5"
-		"ypos"										"cs-0.5"
+		"ypos"										"10"
 		"zpos"										"1"
-		"wide"										"400"
-		"tall"										"200"
+		"wide"										"580"	//5:4 Limit
+		"tall"										"360"
 		"visible"									"1"
 		"enabled"									"1"
 		"paintborder"								"0"
@@ -71,7 +74,7 @@
 		"labelText"									"#TF_WELCOME"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
-		"font"										"Coolvetica15"
+		"font"										"Coolvetica16"
 		"fgcolor"									"White"
 
 		"pin_to_sibling"							"TFTextMessage"
@@ -92,13 +95,13 @@
 		"labelText"									"CONTINUE (&E) "
 		"textAlignment"								"center"
 		"command"									"okay"
-		"font"										"Coolvetica15"
+		"font"										"Coolvetica16"
 
 		"paintbackground"							"0"
 		"paintborder"								"0"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"Menu Labels"
+		"armedFgColor_override"						"Menu_Accent"
 		"depressedFgColor_override"					"White"
 
 		"pin_to_sibling"							"TFTextMessage"

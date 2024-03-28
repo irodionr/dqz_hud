@@ -31,8 +31,7 @@
 		"ControlName"								"CTFVideoPanel"
 		"fieldName"									"VideoPanel"
 		"xpos"										"cs-0.5"
-		"ypos"										"c-183"
-		"zpos"										"6"
+		"ypos"										"c-153"
 		"wide"										"300"
 		"tall"										"225"
 		"visible"									"1"
@@ -46,7 +45,7 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"VideoCaption"
 		"xpos"										"0"
-		"ypos"										"-2"
+		"ypos"										"0"
 		"zpos"										"5"
 		"wide"										"299"
 		"tall"										"40"
@@ -80,13 +79,13 @@
 		"labelText"									"CONTINUE (&E) "
 		"textAlignment"								"center"
 		"command"									"skip"
-		"font"										"Coolvetica15"
+		"font"										"Coolvetica16"
 
 		"paintbackground"							"0"
 		"paintborder"								"0"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"Menu Labels"
+		"armedFgColor_override"						"Menu_Accent"
 		"depressedFgColor_override"					"White"
 
 		"pin_to_sibling"							"VideoCaption"
@@ -107,13 +106,13 @@
 		"labelText"									"BACK (&Q) "
 		"textAlignment"								"center"
 		"command"									"back"
-		"font"										"Coolvetica15"
+		"font"										"Coolvetica16"
 
 		"paintbackground"							"0"
 		"paintborder"								"0"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"Menu Labels"
+		"armedFgColor_override"						"Menu_Accent"
 		"depressedFgColor_override"					"White"
 
 		"pin_to_sibling"							"Skip"

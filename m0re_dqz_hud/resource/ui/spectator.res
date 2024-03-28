@@ -30,24 +30,22 @@
 
 		"if_mvm"
 		{
-			"ypos"									"200"
+			"ypos"									"90"
 		}
 	}
 	"BuyBackLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"BuyBackLabel"
-		"xpos"										"0"
-		"ypos"										"0"
+		"xpos"										"c-200"
+		"ypos"										"120"
 		"wide"										"400"
-		"tall"										"f0"
+		"tall"										"15"
 		"visible"									"0"
 		"enabled"									"1"
 		"labelText"									""
 		"textAlignment"								"center"
-		"font"										"m0refont16Shadow"
-		"wrap"										"1"
-		"centerwrap"								"1"
+		"font"										"m0refont12Shadow"
 	}
 	"Spectator_Extras"
 	{

@@ -169,7 +169,7 @@
 		"scaleImage"								"1"
 		"image"										"replay/thumbnails/health/health_box"
 		"alpha"										"0"
-		"drawcolor"									"Health Buff BG"
+		"drawcolor"									"Health_Buff"
 	}
 	"PlayerStatusHealthDyingBG"
 	{
@@ -189,7 +189,7 @@
 		"scaleImage"								"1"
 		"image"										"replay/thumbnails/health/health_box"
 		"alpha"										"0"
-		"drawcolor"									"Health Hurt BG"
+		"drawcolor"									"Health_Hurt"
 	}
 
 	//==================================================================================================================================================
@@ -212,7 +212,7 @@
 		"textAlignment"								"center"
 		"font"										"m0refont72"
 		"font_minmode"								"m0refont32"
-		"fgcolor"									"Health Numbers"
+		"fgcolor"									"Health_Numbers"
 
 		"pin_to_sibling"							"HealthAnchor"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
@@ -237,18 +237,18 @@
 		"textAlignment"								"center"
 		"font"										"m0refont72"
 		"font_minmode"								"m0refont32"
-		"fgcolor"									"Black"
+		"fgcolor"									"Main_Shadow"
 
 		"pin_to_sibling"							"HealthValue"
 	}
     "HealthValue_Shadow1"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"HealthValue_Shadow1"
-		"xpos"										"1"
-		"xpos_minmode"								"1"
-		"ypos"										"1"
-		"ypos_minmode"								"1"
+		"fieldName"									"HealthValue_Shadow"
+		"xpos"										"-1"
+		"xpos_minmode"								"-1"
+		"ypos"										"-1"
+		"ypos_minmode"								"-1"
 		"zpos"										"6"
 		"wide"										"150"
 		"wide_minmode"								"100"
@@ -260,37 +260,14 @@
 		"textAlignment"								"center"
 		"font"										"m0refont72"
 		"font_minmode"								"m0refont32"
-		"fgcolor"									"Black"
+		"fgcolor"									"Main_Shadow"
 
 		"pin_to_sibling"							"HealthValue"
 	}
     "HealthValue_Shadow2"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"HealthValue_Shadow2"
-		"xpos"										"-1"
-		"xpos_minmode"								"-1"
-		"ypos"										"1"
-		"ypos_minmode"								"1"
-		"zpos"										"6"
-		"wide"										"150"
-		"wide_minmode"								"100"
-		"tall"										"80"
-		"tall_minmode"								"40"
-		"visible"									"1"
-		"enabled"									"1"
-		"labelText"									"%Health%"
-		"textAlignment"								"center"
-		"font"										"m0refont72"
-		"font_minmode"								"m0refont32"
-		"fgcolor"									"Black"
-
-		"pin_to_sibling"							"HealthValue"
-	}
-    "HealthValue_Shadow3"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"HealthValue_Shadow3"
+		"fieldName"									"HealthValue_Shadow"
 		"xpos"										"1"
 		"xpos_minmode"								"1"
 		"ypos"										"-1"
@@ -306,18 +283,18 @@
 		"textAlignment"								"center"
 		"font"										"m0refont72"
 		"font_minmode"								"m0refont32"
-		"fgcolor"									"Black"
+		"fgcolor"									"Main_Shadow"
 
 		"pin_to_sibling"							"HealthValue"
 	}
-    "HealthValue_Shadow4"
+    "HealthValue_Shadow3"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"HealthValue_Shadow4"
+		"fieldName"									"HealthValue_Shadow"
 		"xpos"										"-1"
 		"xpos_minmode"								"-1"
-		"ypos"										"-1"
-		"ypos_minmode"								"-1"
+		"ypos"										"1"
+		"ypos_minmode"								"1"
 		"zpos"										"6"
 		"wide"										"150"
 		"wide_minmode"								"100"
@@ -329,7 +306,30 @@
 		"textAlignment"								"center"
 		"font"										"m0refont72"
 		"font_minmode"								"m0refont32"
-		"fgcolor"									"Black"
+		"fgcolor"									"Main_Shadow"
+
+		"pin_to_sibling"							"HealthValue"
+	}
+    "HealthValue_Shadow4"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"HealthValue_Shadow"
+		"xpos"										"1"
+		"xpos_minmode"								"1"
+		"ypos"										"1"
+		"ypos_minmode"								"1"
+		"zpos"										"6"
+		"wide"										"150"
+		"wide_minmode"								"100"
+		"tall"										"80"
+		"tall_minmode"								"40"
+		"visible"									"1"
+		"enabled"									"1"
+		"labelText"									"%Health%"
+		"textAlignment"								"center"
+		"font"										"m0refont72"
+		"font_minmode"								"m0refont32"
+		"fgcolor"									"Main_Shadow"
 
 		"pin_to_sibling"							"HealthValue"
 	}
@@ -350,7 +350,7 @@
 		"textAlignment"								"center"
 		"font"										"m0refont72"
 		"font_minmode"								"m0refont32"
-		"fgcolor"									"Extra Shadow"
+		"fgcolor"									"Extra_Health_Shadow"
 		"alpha"										"0"
 
 		"pin_to_sibling"							"HealthValue_Shadow"

@@ -38,10 +38,10 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"font"										"m0refont72Outline"
-		"font_minmode"								"m0refont32Outline"
+		"font_minmode"								"m0refont32"
 		"textAlignment"								"east"
 		"labelText"									"%Ammo%"
-		"fgcolor"									"Ammo In Clip"
+		"fgcolor"									"Ammo_In_Clip"
 
 		"pin_to_sibling"							"AmmoAnchor"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
@@ -66,7 +66,7 @@
 		"font_minmode"								"m0refont32"
 		"textAlignment"								"east"
 		"labelText"									"%Ammo%"
-		"fgcolor"									"Black"
+		"fgcolor"									"Main_Shadow"
 
 		"pin_to_sibling"							"AmmoInClip"
 	}
@@ -89,10 +89,10 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"font"										"m0refont24Outline"
-		"font_minmode"								"m0refont18Outline"
+		"font_minmode"								"m0refont18"
 		"textAlignment"								"west"
 		"labelText"									"%AmmoInReserve%"
-		"fgcolor"									"Ammo In Reserve"
+		"fgcolor"									"Ammo_In_Reserve"
 
 		"pin_to_sibling"							"AmmoAnchor"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
@@ -115,7 +115,7 @@
 		"font_minmode"								"m0refont18"
 		"textAlignment"								"west"
 		"labelText"									"%AmmoInReserve%"
-		"fgcolor"									"Black"
+		"fgcolor"									"Main_Shadow"
 
 		"pin_to_sibling"							"AmmoInReserve"
 	}
@@ -137,10 +137,10 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"font"										"m0refont72Outline"
-		"font_minmode"								"m0refont32Outline"
+		"font_minmode"								"m0refont32"
 		"textAlignment"								"center"
 		"labelText"									"%Ammo%"
-		"fgcolor"									"Ammo No Clip"
+		"fgcolor"									"Ammo_In_Clip"
 
 		"pin_to_sibling"							"AmmoAnchor"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
@@ -165,7 +165,7 @@
 		"font_minmode"								"m0refont32"
 		"textAlignment"								"center"
 		"labelText"									"%Ammo%"
-		"fgcolor"									"Black"
+		"fgcolor"									"Main_Shadow"
 
 		"pin_to_sibling"							"AmmoNoClip"
 	}

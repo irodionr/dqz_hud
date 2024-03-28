@@ -33,6 +33,16 @@
 				"dropshadow"								"1"
 			}
 		}
+        "m0refont10Outline"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"10"
+				"antialias"									"1"
+				"outline"								    "1"
+			}
+		}
 		"m0refont11"
 		{
 			"1"
@@ -69,6 +79,16 @@
 				"tall"										"12"
 				"antialias"									"1"
 				"dropshadow"								"1"
+			}
+		}
+        "m0refont12Outline"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"12"
+				"antialias"									"1"
+				"outline"								    "1"
 			}
 		}
 		"m0refont14"
@@ -253,16 +273,6 @@
 				"dropshadow"								"1"
 			}
 		}
-        "m0refont32Outline"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"32"
-				"antialias"									"1"
-                "outline"                                   "1"
-			}
-		}
 		"m0refont36"
 		{
 			"1"
@@ -279,16 +289,6 @@
 				"name"										"Surface-Medium"
 				"tall"										"48"
 				"antialias"									"1"
-			}
-		}
-        "m0refont48Shadow"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"48"
-				"antialias"									"1"
-                "dropshadow"                                "1"
 			}
 		}
 		"m0refont72"
@@ -310,39 +310,39 @@
                 "outline"                                   "1"
 			}
 		}
-		"Coolvetica11"
+		"Coolvetica12"
 		{
 			"1"
 			{
-				"name"										"Coolvetica"
-				"tall"										"11"
+				"name"										"CoolveticaRG-Bold"
+				"tall"										"12"
 				"antialias"									"1"
 			}
 		}
-		"Coolvetica13"
+		"Coolvetica14"
 		{
 			"1"
 			{
-				"name"										"Coolvetica"
-				"tall"										"13"
+				"name"										"CoolveticaRG-Bold"
+				"tall"										"14"
 				"antialias"									"1"
 			}
 		}
-		"Coolvetica15"
+		"Coolvetica16"
 		{
 			"1"
 			{
-				"name"										"Coolvetica"
-				"tall"										"15"
+				"name"										"CoolveticaRG-Bold"
+				"tall"										"16"
 				"antialias"									"1"
 			}
 		}
-        "Coolvetica15Shadow"
+        "Coolvetica16Shadow"
 		{
 			"1"
 			{
-				"name"										"Coolvetica"
-				"tall"										"15"
+				"name"										"CoolveticaRG-Bold"
+				"tall"										"16"
 				"antialias"									"1"
                 "dropshadow"                                "1"
 			}
@@ -369,7 +369,7 @@
 		{
 			"1"
 			{
-				"name"										"m0rehud Icons V7"
+				"name"										"m0rehud Icons V11"
 				"tall"										"10"
 				"antialias"									"1"
 			}
@@ -378,7 +378,7 @@
 		{
 			"1"
 			{
-				"name"										"m0rehud Icons V7"
+				"name"										"m0rehud Icons V11"
 				"tall"										"12"
 				"antialias"									"1"
 			}
@@ -387,7 +387,7 @@
 		{
 			"1"
 			{
-				"name"										"m0rehud Icons V7"
+				"name"										"m0rehud Icons V11"
 				"tall"										"14"
 				"antialias"									"1"
 			}
@@ -396,7 +396,7 @@
 		{
 			"1"
 			{
-				"name"										"m0rehud Icons V7"
+				"name"										"m0rehud Icons V11"
 				"tall"										"16"
 				"antialias"									"1"
 			}
@@ -405,7 +405,7 @@
 		{
 			"1"
 			{
-				"name"										"m0rehud Icons V7"
+				"name"										"m0rehud Icons V11"
 				"tall"										"18"
 				"antialias"									"1"
 			}
@@ -414,7 +414,7 @@
 		{
 			"1"
 			{
-				"name"										"m0rehud Icons V7"
+				"name"										"m0rehud Icons V11"
 				"tall"										"20"
 				"antialias"									"1"
 			}
@@ -423,7 +423,7 @@
 		{
 			"1"
 			{
-				"name"										"m0rehud Icons V7"
+				"name"										"m0rehud Icons V11"
 				"tall"										"32"
 				"antialias"									"1"
 			}
@@ -1329,6 +1329,7 @@
 				"tall"										"24"
 				"range"										"0x0000 0x017F"
 				"antialias"									"1"
+				"dropshadow"								"1"
 			}
 		}
 		"CloseCaption_Italic"
@@ -1340,6 +1341,7 @@
 				"italic"									"1"
 				"range"										"0x0000 0x017F"
 				"antialias"									"1"
+				"dropshadow"								"1"
 			}
 		}
 		"CloseCaption_Bold"
@@ -1350,6 +1352,7 @@
 				"tall"										"24"
 				"range"										"0x0000 0x017F"
 				"antialias"									"1"
+				"dropshadow"								"1"
 			}
 		}
 		"CloseCaption_BoldItalic"
@@ -1361,6 +1364,7 @@
 				"italic"									"1"
 				"range"										"0x0000 0x017F"
 				"antialias"									"1"
+				"dropshadow"								"1"
 			}
 		}
 		"CloseCaption_Small"
@@ -1371,6 +1375,7 @@
 				"tall"										"16"
 				"range"										"0x0000 0x017F"
 				"antialias"									"1"
+				"dropshadow"								"1"
 			}
 		}
 		"Marlett"
@@ -3014,7 +3019,7 @@
 		"11"
 		{
 			"font"		"resource/scheme/fonts/coolvetica.ttf"
-			"name"		"Coolvetica"
+			"name"		"CoolveticaRG-Bold"
 		}
 		"12"
 		{
@@ -3024,7 +3029,7 @@
 		"13"
 		{
 			"font"		"resource/scheme/fonts/m0rehud_icons.ttf"
-			"name"		"m0rehud Icons V7"
+			"name"		"m0rehud Icons V11"
 		}
 		"14"
 		{

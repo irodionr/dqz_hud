@@ -1,4 +1,4 @@
-#base "reloadscheme.res"
+#base "../dev/reload_scheme.res"
 
 "Resource/UI/CraftingPanel.res"
 {

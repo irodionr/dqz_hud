@@ -1,4 +1,4 @@
-#base "reloadscheme.res"
+#base "../dev/reload_scheme.res"
 
 "Resource/UI/StatSummary_Embedded.res"
 {

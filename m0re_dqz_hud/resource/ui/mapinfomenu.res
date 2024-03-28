@@ -31,14 +31,14 @@
 	{
 		"ControlName"								"CExRichText"
 		"fieldName"									"MapInfoText"
-		"font"										"m0refont11"
 		"xpos"										"cs-0.5"
 		"ypos"										"cs-0.5"
 		"zpos"										"3"
 		"wide"										"200"
-		"tall"										"200"
+		"tall"										"260"
 		"visible"									"1"
 		"enabled"									"1"
+		"font"										"m0refont11"
 		"textAlignment"								"center"
 		"fgcolor"									"White"
 		"paintbackground"							"0"
@@ -57,7 +57,7 @@
 		"enabled"									"1"
 		"labelText"									"%mapname%"
 		"textAlignment"								"center"
-		"font"										"Coolvetica15"
+		"font"										"Coolvetica16"
 		"fgcolor"									"White"
 		"AllCaps"									"1"
 
@@ -79,13 +79,13 @@
 		"labelText"									"CONTINUE (&E) "
 		"textAlignment"								"center"
 		"command"									"continue"
-		"font"										"Coolvetica15"
+		"font"										"Coolvetica16"
 
 		"paintbackground"							"0"
 		"paintborder"								"0"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"Menu Labels"
+		"armedFgColor_override"						"Menu_Accent"
 		"depressedFgColor_override"					"White"
 
 		"pin_to_sibling"							"MapInfoText"
@@ -106,13 +106,13 @@
 		"labelText"									"WATCH MOVIE"
 		"textAlignment"								"center"
 		"command"									"intro"
-		"font"										"Coolvetica15"
+		"font"										"Coolvetica16"
 
 		"paintbackground"							"0"
 		"paintborder"								"0"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"Menu Labels"
+		"armedFgColor_override"						"Menu_Accent"
 		"depressedFgColor_override"					"White"
 
 		"pin_to_sibling"							"ok"

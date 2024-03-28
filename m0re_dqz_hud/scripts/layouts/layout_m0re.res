@@ -42,6 +42,13 @@
 		"wide_minmode"								"f0"
 		"tall"										"f0"
 	}
+	"HudBossHealth"
+	{
+		"xpos"										"cs-0.5"
+		"ypos"										"65"
+		"wide"										"172"
+		"tall"										"50"
+	}
 	"CHudAccountPanel"
 	{
 		"xpos"										"c-100"
@@ -64,13 +71,18 @@
 		"fieldName"									"HudDamageIndicator"
 		"visible"									"1"
 		"enabled"									"1"
-		"MinimumWidth"								"15"
-		"MaximumWidth"								"35"
-		"StartRadius"								"80"
-		"EndRadius"									"80"
+		"StartRadius"								"120"
+		"EndRadius"									"120"
+		"MinimumWidth"								"10"
+		"MaximumWidth"								"40"
 		"MinimumHeight"								"30"
 		"MaximumHeight"								"60"
 		"MinimumTime"								"1"
+		"MaximumTime"								"2"
+		"MaximumDamage"								"100"
+		"TravelTime"								".1"
+		"FadeOutPercentage"							"0.7"
+		"Noise"										"0.1"
 	}
 	"CDamageAccountPanel"
 	{
@@ -93,8 +105,8 @@
 	}
 	"CSpectatorTargetID"
 	{
-		"ypos"										"c110"
-		"ypos_minmode"								"c110"
+		"ypos"										"c90"
+		"ypos_minmode"								"c90"
 		"tall"										"32"
 		"tall_minmode"								"32"
 	}
@@ -128,12 +140,12 @@
 	}
 	"CurrencyStatusPanel"
 	{
-		"xpos"										"c-204"
-		"xpos_minmode"								"c-204"
-		"ypos"										"rs1"
-		"ypos_minmode"								"rs1"
-		"wide"										"60"
-		"tall"										"18"
+		"xpos"										"0"
+		"xpos_minmode"								"0"
+		"ypos"										"0"
+		"ypos_minmode"								"0"
+		"wide"										"f0"
+		"tall"										"f0"
 	}
 	"HudDeathNotice"
 	{
@@ -142,7 +154,7 @@
 		"wide"										"628"
 		"tall"										"468"
 
-		"MaxDeathNotices"							"12"
+		"MaxDeathNotices"							"8"
 		"IconScale"									"0.35"
 		"LineHeight"								"12"
 		"LineSpacing"								"0"
@@ -161,9 +173,10 @@
 	}
 	"HudCloseCaption"
 	{
-		"xpos"										"c-215"
+		"xpos"										"c220"
 		"xpos_minmode"								"c-35"
-		"ypos"										"r95"
+		"ypos"										"c112"
+		"ypos_minmode"								"r105"
 		"wide"										"150"
 		"tall"										"50"
 
@@ -194,6 +207,13 @@
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"10"
+		"wide"										"f0"
+		"tall"										"f0"
+	}
+	"PVEWinPanel"
+	{
+		"xpos"										"0"
+		"ypos"										"0"
 		"wide"										"f0"
 		"tall"										"f0"
 	}
@@ -295,6 +315,14 @@
 		"ypos"										"r260"
 		"wide"										"f0"
 		"tall"										"320"
+	}
+	"HudArenaPlayerCount"
+	{
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"6"
+		"wide"										"f0"
+		"tall"										"f0"
 	}
 	"HudAchievementTracker"
 	{

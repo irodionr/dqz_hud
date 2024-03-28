@@ -159,7 +159,7 @@
 			"ypos"									"0"
 			"wide"									"30"
 			"tall"									"10"
-			"font"									"m0refont12Shadow"
+			"font"									"m0refont10Shadow"
 			"disabledfgcolor2_override"				"34 202 66 255"
 			"textAlignment"							"west"
 			"pin_to_sibling"						""
@@ -186,7 +186,7 @@
 			"ypos"									"0"
 			"wide"									"30"
 			"tall"									"10"
-			"font"									"m0refont12Shadow"
+			"font"									"m0refont10Shadow"
 			"disabledfgcolor2_override"				"255 0 0 255"
 			"pin_to_sibling"						""
 		}
