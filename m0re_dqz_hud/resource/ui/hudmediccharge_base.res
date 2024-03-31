@@ -22,35 +22,6 @@
 	}
 
 	//==================================================================================================================================================
-	// UNDER CROSSHAIR SMALL UBER PERCENTAGE
-	//==================================================================================================================================================
-	"ChargeLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"ChargeLabel"
-		"xpos"										"cs-0.5"
-		"xpos_minmode"								"0"
-		"ypos"										"c45"
-		"ypos_minmode"								"0"
-		"zpos"										"2"
-		"wide"										"100"
-		"tall"										"20"
-		"tall_minmode"								"40"
-		"visible"									"1"
-		"enabled"									"1"
-		"proportionaltoparent"						"1"
-		"labelText"									"#TF_UberchargeMinHUD"
-		"textAlignment"								"center"
-		"font"										"m0refont18Shadow"
-		"font_minmode"								"m0refont32Shadow"
-		"fgcolor"									"Ubercharge"
-
-		"pin_to_sibling_minmode"					"UberAnchor"
-		"pin_corner_to_sibling_minmode"				"PIN_CENTER_TOP"
-		"pin_to_sibling_corner_minmode"				"PIN_CENTER_TOP"
-	}
-
-	//==================================================================================================================================================
 	// MAIN UBER PERCENTAGE
 	//==================================================================================================================================================
 	"ChargeLabelBig"
