@@ -44,6 +44,16 @@
 				"dropshadow"								"1"
 			}
 		}
+		"m0refont11Outline"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"11"
+				"antialias"									"1"
+				"outline"									"1"
+			}
+		}
 		"m0refont12"
 		{
 			"1"
@@ -61,6 +71,16 @@
 				"tall"										"12"
 				"antialias"									"1"
 				"dropshadow"								"1"
+			}
+		}
+		"m0refont12Outline"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"12"
+				"antialias"									"1"
+				"outline"									"1"
 			}
 		}
 		"m0refont14"
@@ -89,6 +109,16 @@
 				"tall"										"16"
 				"antialias"									"1"
 				"dropshadow"								"1"
+			}
+		}
+		"m0refont16Outline"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"16"
+				"antialias"									"1"
+				"outline"									"1"
 			}
 		}
 		"m0refont18"
@@ -214,6 +244,16 @@
 				"antialias"									"1"
 			}
 		}
+		"m0refont48Outline"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"48"
+				"antialias"									"1"
+				"outline"									"1"
+			}
+		}
 		"m0refont58"
 		{
 			"1"
@@ -221,6 +261,16 @@
 				"name"										"Surface-Medium"
 				"tall"										"58"
 				"antialias"									"1"
+			}
+		}
+		"m0refont58Outline"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"58"
+				"antialias"									"1"
+				"outline"									"1"
 			}
 		}
 		"Coolvetica11"
@@ -250,12 +300,31 @@
 				"antialias"									"1"
 			}
 		}
+		"Coolvetica15Shadow"
+		{
+			"1"
+			{
+				"name"										"Coolvetica"
+				"tall"										"15"
+				"antialias"									"1"
+				"dropshadow"								"1"
+			}
+		}
 		"VerdanaMenu"										//Create Server Button
 		{
 			"1"
 			{
 				"name"										"Verdana"
 				"tall"										"18"
+				"antialias"									"1"
+			}
+		}
+		"VerdanaSmallest"									//Match Status Names
+		{
+			"1"
+			{
+				"name"										"Verdana"
+				"tall"										"6"
 				"antialias"									"1"
 			}
 		}

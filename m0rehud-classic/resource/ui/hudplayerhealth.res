@@ -93,10 +93,64 @@
 
 		"pin_to_sibling"							"HealthValue"
 	}
-	"HealthValue_Shadow_Extra"
+	"HealthValue_Shadow1"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"HealthValue_Shadow_Extra"
+		"fieldName"									"HealthValue_Shadow"
+		"xpos"										"1"
+		"ypos"										"1"
+		"zpos"										"5"
+		"wide"										"150"
+		"tall"										"80"
+		"visible"									"1"
+		"enabled"									"1"
+		"labelText"									"%Health%"
+		"textAlignment"								"center"
+		"font"										"m0refont58"
+		"fgcolor"									"Black"
+
+		"pin_to_sibling"							"HealthValue"
+	}
+	"HealthValue_Shadow2"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"HealthValue_Shadow"
+		"xpos"										"-1"
+		"ypos"										"1"
+		"zpos"										"5"
+		"wide"										"150"
+		"tall"										"80"
+		"visible"									"1"
+		"enabled"									"1"
+		"labelText"									"%Health%"
+		"textAlignment"								"center"
+		"font"										"m0refont58"
+		"fgcolor"									"Black"
+
+		"pin_to_sibling"							"HealthValue"
+	}
+	"HealthValue_Shadow3"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"HealthValue_Shadow"
+		"xpos"										"1"
+		"ypos"										"-1"
+		"zpos"										"5"
+		"wide"										"150"
+		"tall"										"80"
+		"visible"									"1"
+		"enabled"									"1"
+		"labelText"									"%Health%"
+		"textAlignment"								"center"
+		"font"										"m0refont58"
+		"fgcolor"									"Black"
+
+		"pin_to_sibling"							"HealthValue"
+	}
+	"HealthValue_Shadow4"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"HealthValue_Shadow"
 		"xpos"										"-1"
 		"ypos"										"-1"
 		"zpos"										"5"
@@ -107,10 +161,9 @@
 		"labelText"									"%Health%"
 		"textAlignment"								"center"
 		"font"										"m0refont58"
-		"fgcolor"									"Extra Shadow"
-		"alpha"										"0"
+		"fgcolor"									"Black"
 
-		"pin_to_sibling"							"HealthValue_Shadow"
+		"pin_to_sibling"							"HealthValue"
 	}
 
 	//==================================================================================================================================================

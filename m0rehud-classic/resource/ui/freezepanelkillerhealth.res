@@ -29,7 +29,7 @@
 		"proportionaltoparent"						"1"
 		"textAlignment"								"center"
 		"labeltext"									"%Health%"
-		"font"										"m0refont24"
+		"font"										"m0refont24Outline"
 		"fgcolor"									"Health Numbers"
 	}
 	"HealthValue_Killer_Shadow"
@@ -50,26 +50,6 @@
 		"fgcolor"									"Black"
 
 		"pin_to_sibling"							"HealthValue_Killer"
-	}
-	"HealthValue_Killer_Shadow_Extra"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"HealthValue_Killer_Shadow_Extra"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"20"
-		"wide"										"f-1"
-		"tall"										"f-1"
-		"visible"									"1"
-		"enabled"									"1"
-		"proportionaltoparent"						"1"
-		"textAlignment"								"center"
-		"labeltext"									"%Health%"
-		"font"										"m0refont24"
-		"fgcolor"									"Extra Shadow"
-		"alpha"										"0"
-
-		"pin_to_sibling"							"HealthValue_Killer_Shadow"
 	}
 
 

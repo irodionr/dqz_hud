@@ -14,7 +14,7 @@
 		"proportionaltoparent"						"1"
 		"textAlignment"								"center"
 		"labeltext"									"%Health%"
-		"font"										"m0refont11"
+		"font"										"m0refont11Outline"
 		"fgcolor"									"Health Numbers"
 	}
 	"HealthValue_Spectator_Shadow"

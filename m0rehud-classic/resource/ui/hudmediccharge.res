@@ -19,28 +19,6 @@
 	}
 
 	//==================================================================================================================================================
-	// UNDER CROSSHAIR SMALL UBER PERCENTAGE
-	//==================================================================================================================================================
-	"ChargeLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"ChargeLabel"
-		"xpos"										"cs-0.5"
-		"ypos"										"c36"
-		"zpos"										"2"
-		"wide"										"100"
-		"tall"										"20"
-		"visible"									"1"
-		"enabled"									"1"
-		"proportionaltoparent"						"1"
-		"labelText"									"#TF_UberchargeMinHUD"
-		"textAlignment"								"center"
-		"font"										"m0refont18Shadow"
-		"fgcolor"									"Ubercharge"
-
-	}
-
-	//==================================================================================================================================================
 	// MAIN UBER PERCENTAGE
 	//==================================================================================================================================================
 	"ChargeLabelBig"
@@ -57,7 +35,7 @@
 		"proportionaltoparent"						"1"
 		"labelText"									"#TF_UberchargeMinHUD"
 		"textAlignment"								"center"
-		"font"										"m0refont58"
+		"font"										"m0refont58Outline"
 		"fgcolor"									"Ubercharge"
 
 		"pin_to_sibling"							"UberAnchor"
@@ -82,26 +60,6 @@
 		"fgcolor"									"Black"
 
 		"pin_to_sibling"							"ChargeLabelBig"
-	}
-	"ChargeLabelBigShadowExtra"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"ChargeLabelBigShadowExtra"
-		"xpos"										"-1"
-		"ypos"										"-1"
-		"zpos"										"2"
-		"wide"										"200"
-		"tall"										"80"
-		"visible"									"1"
-		"enabled"									"1"
-		"proportionaltoparent"						"1"
-		"labelText"									"#TF_UberchargeMinHUD"
-		"textAlignment"								"center"
-		"font"										"m0refont58"
-		"fgcolor"									"Extra Shadow"
-		"alpha"										"0"
-
-		"pin_to_sibling"							"ChargeLabelBigShadow"
 	}
 
 	//==================================================================================================================================================
@@ -129,8 +87,8 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"IndividualChargesLabel"
-		"xpos"										"0"
-		"ypos"										"0"
+		"xpos"										"cs-0.5"
+		"ypos"										"c36"
 		"zpos"										"3"
 		"wide"										"100"
 		"tall"										"20"
@@ -140,9 +98,7 @@
 		"labelText"									"#TF_IndividualUberchargesMinHUD"
 		"textAlignment"								"center"
 		"fgcolor"									"Ubercharge"
-		"font"										"m0refont18Shadow"
-
-		"pin_to_sibling"							"ChargeLabel"
+		"font"										"m0refont18Outline"
 	}
 	"ChargeMeter1"
 	{

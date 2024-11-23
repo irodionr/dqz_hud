@@ -29,7 +29,7 @@
 		"proportionaltoparent"						"1"
 		"textAlignment"								"center"
 		"labeltext"									"%Health%"
-		"font"										"m0refont24"
+		"font"										"m0refont24Outline"
 		"fgcolor"									"Health Numbers"
 	}
 	"HealthValue_Target_Shadow"
