@@ -1,10 +1,10 @@
-# dqz_hud
+# dqz_hud 2022
 
 ![Screenshot](https://i.imgur.com/7fHRgTb.jpg)
 
-Download: https://github.com/irodionr/dqz_hud/archive/refs/heads/master.zip  
-2012 version: https://github.com/irodionr/dqz_hud/tree/2012  
-m0rehud-based version: https://github.com/irodionr/dqz_hud/tree/m0re
+Download: https://github.com/irodionr/dqz_hud/archive/refs/heads/2022.zip  
+Main m0rehud-based version: https://github.com/irodionr/dqz_hud/tree/main  
+2012 version: https://github.com/irodionr/dqz_hud/tree/2012
 
 Installation:  
 Put `dqz_hud` folder into `...\Steam\steamapps\common\Team Fortress 2\tf\custom\`.  
@@ -15,7 +15,7 @@ Based on e.v.e HUD: http://tf2.gamebanana.com/guis/25711
 Main menu from sweetHud: https://github.com/FireStarW/sweetHud  
 Damage font from ToonHUD: http://toonhud.com/  
 Custom crosshairs from yahud: https://github.com/whayay/yahud  
-Fog's Custom HUD Crosshairs V3: http://teamfortress.tv/forum/thread/14702-release-fogs-crosshairs-v3  
+Fog's Custom HUD Crosshairs V3: http://teamfortress.tv/forum/thread/14702-release-fogs-crosshairs-v3
 
 Contact me on Discord if you have any questions or suggestions:  
 dqz#4970
