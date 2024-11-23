@@ -5,6 +5,10 @@ This version is entirely based on [Hypnootize's m0rehud](https://github.com/Hypn
 
 Download: https://github.com/irodionr/dqz_hud/archive/refs/heads/m0re.zip  
 
+Legacy versions are available in their own branches:  
+https://github.com/irodionr/dqz_hud/tree/2012  
+https://github.com/irodionr/dqz_hud/tree/2022
+
 Installation:  
 Put `m0re_dqz_hud` folder into `...\Steam\steamapps\common\Team Fortress 2\tf\custom\`.  
 Refer to the repository of the base HUD for customization: https://github.com/Hypnootize/m0rehud
