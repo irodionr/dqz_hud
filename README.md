@@ -3,7 +3,7 @@ This version is entirely based on [Hypnootize's classic m0rehud](https://github.
 
 ![Screenshot](https://i.imgur.com/C8EdHD7.jpeg)
 
-Download: https://github.com/irodionr/dqz_hud/archive/refs/heads/m0re.zip  
+Download: https://github.com/irodionr/dqz_hud/archive/refs/heads/main.zip
 
 Legacy versions are available in their own branches:  
 https://github.com/irodionr/dqz_hud/tree/2012  
