@@ -10,7 +10,7 @@ https://github.com/irodionr/dqz_hud/tree/2012
 https://github.com/irodionr/dqz_hud/tree/2022
 
 Installation:  
-Put `m0re_dqz_hud` folder into `...\Steam\steamapps\common\Team Fortress 2\tf\custom\`.  
+Put the downloaded folder into `...\Steam\steamapps\common\Team Fortress 2\tf\custom\`.  
 Refer to the repository of the base HUD for customization: https://github.com/Hypnootize/m0rehud
 
 Contact me on Discord if you have any questions or suggestions:  
