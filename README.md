@@ -1,6 +1,6 @@
 # dqz_hud 2022
 
-This is the latest version based on [Hypnootize's m0rehud](https://github.com/Hypnootize/m0rehud) that includes all of its in-game customization features.
+This is the latest version based on [e.v.e HUD](https://gamebanana.com/mods/26852).
 
 ![Screenshot](https://i.imgur.com/7fHRgTb.jpg)
 
