@@ -1,7 +1,9 @@
 # dqz_hud m0re version
 This version is entirely based on [Hypnootize's classic m0rehud](https://github.com/Hypnootize/m0rehud/tree/classic) instead of e.v.e, while retaining mostly the same style in colours and outlines as my original e.v.e edit.
 
-![Screenshot](https://i.imgur.com/C8EdHD7.jpeg)
+
+![Screenshot1](https://i.imgur.com/kAtufxe.jpeg)
+![Screenshot2](https://i.imgur.com/ndzkMod.jpeg)
 
 Download the latest version 3 from releases: https://github.com/irodionr/dqz_hud/releases
 
