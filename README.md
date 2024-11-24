@@ -6,7 +6,7 @@ This is an updated 2012 version of the HUD from an old video: https://www.youtub
 Download: https://github.com/irodionr/dqz_hud/archive/refs/heads/2012.zip
 
 Installation:  
-Put the downloaded folder into `...\Steam\steamapps\common\Team Fortress 2\tf\custom\`.  
+Unzip the downloaded archive into a folder and put it into `...\Steam\steamapps\common\Team Fortress 2\tf\custom\`  
 Use with `cl_hud_minmode 0` for all 2012 version features.  
 Custom crosshairs can be enabled in `...\scripts\hudlayout.res` by setting `visible` to `1`.
 
