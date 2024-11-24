@@ -1,10 +1,10 @@
 # dqz_hud 2022
 
+This is the latest version based on Hypnootize's m0rehud (https://github.com/Hypnootize/m0rehud) that includes all of its in-game customization features.
+
 ![Screenshot](https://i.imgur.com/7fHRgTb.jpg)
 
-Download: https://github.com/irodionr/dqz_hud/archive/refs/heads/2022.zip  
-Main m0rehud-based version: https://github.com/irodionr/dqz_hud/tree/main  
-2012 version: https://github.com/irodionr/dqz_hud/tree/2012
+Download the latest version 2 from releases: https://github.com/irodionr/dqz_hud/releases
 
 Installation:  
 Unzip the downloaded archive into a folder and put it into `...\Steam\steamapps\common\Team Fortress 2\tf\custom\`  
