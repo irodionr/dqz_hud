@@ -3,7 +3,7 @@ This is an updated 2012 version of the HUD from an old video: https://www.youtub
 
 ![Screenshot](https://i.imgur.com/aaQJ8xi.jpg)
 
-Download: https://github.com/irodionr/dqz_hud/archive/refs/heads/2012.zip
+Download the latest version 3 from releases: https://github.com/irodionr/dqz_hud/releases
 
 Installation:  
 Unzip the downloaded archive into a folder and put it into `...\Steam\steamapps\common\Team Fortress 2\tf\custom\`  
