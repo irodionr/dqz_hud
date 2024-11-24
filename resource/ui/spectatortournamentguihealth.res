@@ -17,25 +17,6 @@
 		"font"										"m0refont11Outline"
 		"fgcolor"									"Health Numbers"
 	}
-	"HealthValue_Spectator_Shadow"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"HealthValue_Spectator_Shadow"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"5"
-		"wide"										"f-2"
-		"tall"										"f-1"
-		"visible"									"1"
-		"enabled"									"1"
-		"proportionaltoparent"						"1"
-		"textAlignment"								"center"
-		"labeltext"									"%Health%"
-		"font"										"m0refont11"
-		"fgcolor"									"Black"
-
-		"pin_to_sibling"							"HealthValue_Spectator"
-	}
 
 
 
