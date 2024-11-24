@@ -7,7 +7,7 @@ Main m0rehud-based version: https://github.com/irodionr/dqz_hud/tree/main
 2012 version: https://github.com/irodionr/dqz_hud/tree/2012
 
 Installation:  
-Put the downloaded folder into `...\Steam\steamapps\common\Team Fortress 2\tf\custom\`.  
+Unzip the downloaded archive into a folder and put it into `...\Steam\steamapps\common\Team Fortress 2\tf\custom\`  
 Works with `cl_hud_minmode 0` and `1`.  
 Custom crosshairs can be enabled in `...\scripts\hudlayout.res` by setting `visible` to `1`.
 
